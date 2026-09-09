@@ -1,7 +1,7 @@
 """
 fetch_data.py
 
-Pulls player stats from nflverse (nfl_data_py), pulls Expert
+Pulls player stats from nflverse (via nflreadpy), pulls Expert
 Consensus Rankings from the official FantasyPros API, computes
 per-player Monte-Carlo simulation parameters, and writes everything
 to docs/data/players.json for the static front end to consume.
@@ -17,6 +17,13 @@ A FantasyPros API key is free for personal/prototype use - request
 one at https://secure.fantasypros.com/api-keys/request. Without a
 key set, this script still runs fine; it just skips the expert-rank
 enrichment step (players sort alphabetically instead).
+
+Note: this uses nflreadpy, not the older nfl_data_py. nfl_data_py's
+hardcoded download URLs stopped matching nflverse's current release
+layout and 404 as of mid-2026; nflreadpy is the actively maintained
+successor (same nflverse data, load_ prefix instead of import_,
+Polars instead of pandas under the hood - converted to pandas here
+via .to_pandas() so the rest of this script stays unchanged).
 """
 
 import json
@@ -31,9 +38,9 @@ import pandas as pd
 import requests
 
 try:
-    import nfl_data_py as nfl
+    import nflreadpy as nfl
 except ImportError:
-    print("nfl_data_py is required: pip install -r scripts/requirements.txt")
+    print("nflreadpy is required: pip install -r scripts/requirements.txt")
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -69,16 +76,26 @@ def normalize_name(name):
 
 def fetch_weekly_logs():
     """Pull weekly player-level stats for the history window."""
+    df = nfl.load_player_stats(HISTORY_SEASONS).to_pandas()
+    df = df[df["season_type"] == "REG"]
+
+    # nflreadpy names a couple of columns differently than the old
+    # nfl_data_py did; normalize them here so the rest of this file
+    # (written against the old names) doesn't need to change.
+    df = df.rename(columns={
+        "team": "recent_team",
+        "passing_interceptions": "interceptions",
+    })
+
     cols = [
         "player_id", "player_name", "player_display_name", "position",
         "recent_team", "season", "week",
         "carries", "rushing_yards", "rushing_tds",
         "targets", "receptions", "receiving_yards", "receiving_tds",
         "attempts", "completions", "passing_yards", "passing_tds",
-        "interceptions", "sacks", "rushing_fumbles_lost",
+        "interceptions", "rushing_fumbles_lost",
         "receiving_fumbles_lost", "sack_fumbles_lost",
     ]
-    df = nfl.import_weekly_data(HISTORY_SEASONS, downcast=True)
     available = [c for c in cols if c in df.columns]
     df = df[available]
     df = df[df["position"].isin(OFFENSE_POSITIONS)]
@@ -89,7 +106,7 @@ def fetch_schedule():
     """Pull the current season's schedule so we know each team's
     week-by-week opponent and bye week."""
     try:
-        sched = nfl.import_schedules([CURRENT_SEASON])
+        sched = nfl.load_schedules([CURRENT_SEASON]).to_pandas()
     except Exception as exc:  # noqa: BLE001 - best effort, non-fatal
         print(f"Could not pull schedule for {CURRENT_SEASON}: {exc}")
         return {}
