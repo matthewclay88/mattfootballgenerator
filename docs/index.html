@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Weekly Projection Simulator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <h1>Weekly Sim</h1>
+      <p class="sub">Player-by-player Monte Carlo projections</p>
+    </div>
+
+    <input id="search" class="search" type="text" placeholder="Find a player" autocomplete="off" />
+
+    <nav class="pos-tabs" id="posTabs">
+      <button class="pos-tab active" data-pos="QB">QB</button>
+      <button class="pos-tab" data-pos="RB">RB</button>
+      <button class="pos-tab" data-pos="WR">WR</button>
+      <button class="pos-tab" data-pos="TE">TE</button>
+    </nav>
+
+    <ul class="player-list" id="playerList"><!-- populated by app.js --></ul>
+  </aside>
+
+  <main class="main">
+
+    <div id="emptyState" class="empty-state">
+      <p>Pick a player on the left to run their week-by-week simulation.</p>
+    </div>
+
+    <div id="playerView" class="player-view hidden">
+
+      <header class="player-header">
+        <div class="player-id">
+          <span class="player-pos" id="pvPos">RB</span>
+          <div>
+            <h2 id="pvName">Player Name</h2>
+            <p class="player-meta" id="pvMeta">Team &middot; expert rank &mdash;</p>
+          </div>
+        </div>
+
+        <div class="controls">
+          <label class="ctrl">
+            <span>Scoring</span>
+            <select id="scoringFormat">
+              <option value="ppr">Full PPR</option>
+              <option value="half">Half PPR</option>
+              <option value="standard">Standard</option>
+            </select>
+          </label>
+          <label class="ctrl">
+            <span>Trials / week</span>
+            <select id="trialCount">
+              <option value="50">50</option>
+              <option value="100" selected>100</option>
+              <option value="250">250</option>
+            </select>
+          </label>
+          <button id="runBtn" class="run-btn">Run simulation</button>
+        </div>
+      </header>
+
+      <section class="chart-section">
+        <div class="chart-head">
+          <h3>Season range, weeks 1&ndash;18</h3>
+          <div class="legend">
+            <span class="legend-item"><i class="swatch band"></i>10th&ndash;90th percentile</span>
+            <span class="legend-item"><i class="swatch line"></i>median</span>
+          </div>
+        </div>
+        <svg id="seasonChart" viewBox="0 0 960 320" preserveAspectRatio="none"></svg>
+      </section>
+
+      <section class="table-section">
+        <table class="week-table">
+          <thead>
+            <tr>
+              <th>Wk</th>
+              <th>Opp</th>
+              <th class="num">Floor</th>
+              <th class="num">Median</th>
+              <th class="num">Ceiling</th>
+              <th class="num">Boom%</th>
+              <th class="num">Bust%</th>
+            </tr>
+          </thead>
+          <tbody id="weekTableBody"><!-- populated by app.js --></tbody>
+        </table>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

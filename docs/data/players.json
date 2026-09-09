@@ -1,0 +1,6163 @@
+{
+  "generated_at": "SAMPLE-DATA-NOT-LIVE",
+  "season": "sample",
+  "history_seasons": [],
+  "players": [
+    {
+      "id": "sample-Trevor Reyes",
+      "name": "Trevor Reyes",
+      "position": "QB",
+      "team": "CAR",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 30.357,
+          "p": 0.4167
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.665,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 8.39,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.0625,
+        "int_per_att": 0.02
+      },
+      "rushing": {
+        "volume": {
+          "r": 4.375,
+          "p": 0.5
+        },
+        "ypc": 5.11,
+        "td_per_carry": 0.0625
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "2": {
+          "opp": "KC",
+          "home": false
+        },
+        "3": {
+          "opp": "TB",
+          "home": false
+        },
+        "4": {
+          "opp": "LAC",
+          "home": false
+        },
+        "5": {
+          "opp": "TB",
+          "home": false
+        },
+        "6": {
+          "opp": "PIT",
+          "home": true
+        },
+        "7": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "8": {
+          "opp": "CAR",
+          "home": false
+        },
+        "9": {
+          "opp": "LV",
+          "home": false
+        },
+        "10": {
+          "opp": "HOU",
+          "home": false
+        },
+        "12": {
+          "opp": "IND",
+          "home": true
+        },
+        "13": {
+          "opp": "WSH",
+          "home": true
+        },
+        "14": {
+          "opp": "TEN",
+          "home": false
+        },
+        "15": {
+          "opp": "DEN",
+          "home": false
+        },
+        "16": {
+          "opp": "BAL",
+          "home": true
+        },
+        "17": {
+          "opp": "KC",
+          "home": false
+        },
+        "18": {
+          "opp": "TB",
+          "home": true
+        }
+      },
+      "expert_rank": 1
+    },
+    {
+      "id": "sample-Aiden Vance",
+      "name": "Aiden Vance",
+      "position": "QB",
+      "team": "LAR",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 30.357,
+          "p": 0.4167
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.636,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 8.75,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.0625,
+        "int_per_att": 0.02
+      },
+      "rushing": {
+        "volume": {
+          "r": 4.375,
+          "p": 0.5
+        },
+        "ypc": 4.04,
+        "td_per_carry": 0.0625
+      },
+      "schedule": {
+        "1": {
+          "opp": "CIN",
+          "home": true
+        },
+        "2": {
+          "opp": "SEA",
+          "home": true
+        },
+        "3": {
+          "opp": "ARI",
+          "home": false
+        },
+        "4": {
+          "opp": "BAL",
+          "home": false
+        },
+        "5": {
+          "opp": "NO",
+          "home": false
+        },
+        "6": {
+          "opp": "DET",
+          "home": false
+        },
+        "7": {
+          "opp": "SEA",
+          "home": false
+        },
+        "8": {
+          "opp": "BAL",
+          "home": true
+        },
+        "10": {
+          "opp": "CHI",
+          "home": false
+        },
+        "11": {
+          "opp": "GB",
+          "home": true
+        },
+        "12": {
+          "opp": "LAR",
+          "home": false
+        },
+        "13": {
+          "opp": "CIN",
+          "home": true
+        },
+        "14": {
+          "opp": "SF",
+          "home": true
+        },
+        "15": {
+          "opp": "BAL",
+          "home": false
+        },
+        "16": {
+          "opp": "WSH",
+          "home": true
+        },
+        "17": {
+          "opp": "ARI",
+          "home": false
+        },
+        "18": {
+          "opp": "ATL",
+          "home": true
+        }
+      },
+      "expert_rank": 2
+    },
+    {
+      "id": "sample-Xavier Harper",
+      "name": "Xavier Harper",
+      "position": "QB",
+      "team": "LAR",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 30.357,
+          "p": 0.4167
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.636,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 9.47,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.0625,
+        "int_per_att": 0.02
+      },
+      "rushing": {
+        "volume": {
+          "r": 4.375,
+          "p": 0.5
+        },
+        "ypc": 4.98,
+        "td_per_carry": 0.0625
+      },
+      "schedule": {
+        "1": {
+          "opp": "PHI",
+          "home": false
+        },
+        "2": {
+          "opp": "LAC",
+          "home": false
+        },
+        "3": {
+          "opp": "SEA",
+          "home": false
+        },
+        "4": {
+          "opp": "ARI",
+          "home": false
+        },
+        "5": {
+          "opp": "NYG",
+          "home": true
+        },
+        "6": {
+          "opp": "TB",
+          "home": true
+        },
+        "7": {
+          "opp": "NYG",
+          "home": true
+        },
+        "8": {
+          "opp": "GB",
+          "home": true
+        },
+        "10": {
+          "opp": "ATL",
+          "home": true
+        },
+        "11": {
+          "opp": "IND",
+          "home": false
+        },
+        "12": {
+          "opp": "IND",
+          "home": false
+        },
+        "13": {
+          "opp": "LV",
+          "home": false
+        },
+        "14": {
+          "opp": "TEN",
+          "home": false
+        },
+        "15": {
+          "opp": "BUF",
+          "home": false
+        },
+        "16": {
+          "opp": "MIN",
+          "home": true
+        },
+        "17": {
+          "opp": "CHI",
+          "home": true
+        },
+        "18": {
+          "opp": "NYJ",
+          "home": false
+        }
+      },
+      "expert_rank": 3
+    },
+    {
+      "id": "sample-Brandon Marsh",
+      "name": "Brandon Marsh",
+      "position": "QB",
+      "team": "CAR",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 17.0,
+          "p": 0.3333
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.639,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 7.37,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.05,
+        "int_per_att": 0.025
+      },
+      "rushing": {
+        "volume": {
+          "r": 2.333,
+          "p": 0.4
+        },
+        "ypc": 4.7,
+        "td_per_carry": 0.05
+      },
+      "schedule": {
+        "1": {
+          "opp": "BAL",
+          "home": true
+        },
+        "2": {
+          "opp": "ARI",
+          "home": false
+        },
+        "3": {
+          "opp": "DET",
+          "home": true
+        },
+        "4": {
+          "opp": "CLE",
+          "home": false
+        },
+        "5": {
+          "opp": "IND",
+          "home": true
+        },
+        "6": {
+          "opp": "MIN",
+          "home": true
+        },
+        "7": {
+          "opp": "BAL",
+          "home": true
+        },
+        "8": {
+          "opp": "ATL",
+          "home": false
+        },
+        "10": {
+          "opp": "DAL",
+          "home": true
+        },
+        "11": {
+          "opp": "MIN",
+          "home": false
+        },
+        "12": {
+          "opp": "PIT",
+          "home": true
+        },
+        "13": {
+          "opp": "LAR",
+          "home": false
+        },
+        "14": {
+          "opp": "WSH",
+          "home": false
+        },
+        "15": {
+          "opp": "CLE",
+          "home": true
+        },
+        "16": {
+          "opp": "DAL",
+          "home": false
+        },
+        "17": {
+          "opp": "JAX",
+          "home": true
+        },
+        "18": {
+          "opp": "KC",
+          "home": true
+        }
+      },
+      "expert_rank": 4
+    },
+    {
+      "id": "sample-Xavier Reyes",
+      "name": "Xavier Reyes",
+      "position": "QB",
+      "team": "MIA",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 17.0,
+          "p": 0.3333
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.676,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 7.08,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.05,
+        "int_per_att": 0.025
+      },
+      "rushing": {
+        "volume": {
+          "r": 2.333,
+          "p": 0.4
+        },
+        "ypc": 5.43,
+        "td_per_carry": 0.05
+      },
+      "schedule": {
+        "1": {
+          "opp": "DAL",
+          "home": true
+        },
+        "2": {
+          "opp": "JAX",
+          "home": false
+        },
+        "3": {
+          "opp": "LV",
+          "home": true
+        },
+        "4": {
+          "opp": "DET",
+          "home": true
+        },
+        "5": {
+          "opp": "DEN",
+          "home": true
+        },
+        "6": {
+          "opp": "CAR",
+          "home": true
+        },
+        "8": {
+          "opp": "LV",
+          "home": false
+        },
+        "9": {
+          "opp": "SEA",
+          "home": false
+        },
+        "10": {
+          "opp": "MIA",
+          "home": true
+        },
+        "11": {
+          "opp": "NYG",
+          "home": false
+        },
+        "12": {
+          "opp": "DEN",
+          "home": true
+        },
+        "13": {
+          "opp": "GB",
+          "home": false
+        },
+        "14": {
+          "opp": "GB",
+          "home": true
+        },
+        "15": {
+          "opp": "MIN",
+          "home": false
+        },
+        "16": {
+          "opp": "CLE",
+          "home": false
+        },
+        "17": {
+          "opp": "DEN",
+          "home": false
+        },
+        "18": {
+          "opp": "SF",
+          "home": true
+        }
+      },
+      "expert_rank": 5
+    },
+    {
+      "id": "sample-Alex Odom",
+      "name": "Alex Odom",
+      "position": "QB",
+      "team": "GB",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 17.0,
+          "p": 0.3333
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.68,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 6.74,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.05,
+        "int_per_att": 0.025
+      },
+      "rushing": {
+        "volume": {
+          "r": 2.333,
+          "p": 0.4
+        },
+        "ypc": 5.48,
+        "td_per_carry": 0.05
+      },
+      "schedule": {
+        "1": {
+          "opp": "DEN",
+          "home": false
+        },
+        "2": {
+          "opp": "TEN",
+          "home": false
+        },
+        "3": {
+          "opp": "DET",
+          "home": false
+        },
+        "4": {
+          "opp": "CAR",
+          "home": false
+        },
+        "5": {
+          "opp": "CIN",
+          "home": true
+        },
+        "6": {
+          "opp": "JAX",
+          "home": true
+        },
+        "7": {
+          "opp": "MIA",
+          "home": false
+        },
+        "8": {
+          "opp": "LAR",
+          "home": true
+        },
+        "9": {
+          "opp": "IND",
+          "home": true
+        },
+        "10": {
+          "opp": "SF",
+          "home": true
+        },
+        "11": {
+          "opp": "GB",
+          "home": false
+        },
+        "13": {
+          "opp": "HOU",
+          "home": false
+        },
+        "14": {
+          "opp": "CLE",
+          "home": true
+        },
+        "15": {
+          "opp": "HOU",
+          "home": false
+        },
+        "16": {
+          "opp": "DEN",
+          "home": true
+        },
+        "17": {
+          "opp": "KC",
+          "home": false
+        },
+        "18": {
+          "opp": "KC",
+          "home": false
+        }
+      },
+      "expert_rank": 6
+    },
+    {
+      "id": "sample-Cam Priest",
+      "name": "Cam Priest",
+      "position": "QB",
+      "team": "CHI",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 17.0,
+          "p": 0.3333
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.626,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 7.27,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.05,
+        "int_per_att": 0.025
+      },
+      "rushing": {
+        "volume": {
+          "r": 2.333,
+          "p": 0.4
+        },
+        "ypc": 3.89,
+        "td_per_carry": 0.05
+      },
+      "schedule": {
+        "1": {
+          "opp": "LAR",
+          "home": true
+        },
+        "2": {
+          "opp": "NO",
+          "home": true
+        },
+        "3": {
+          "opp": "HOU",
+          "home": true
+        },
+        "4": {
+          "opp": "MIA",
+          "home": true
+        },
+        "5": {
+          "opp": "TEN",
+          "home": true
+        },
+        "6": {
+          "opp": "IND",
+          "home": false
+        },
+        "7": {
+          "opp": "SF",
+          "home": true
+        },
+        "8": {
+          "opp": "PIT",
+          "home": true
+        },
+        "9": {
+          "opp": "CHI",
+          "home": true
+        },
+        "10": {
+          "opp": "SF",
+          "home": true
+        },
+        "12": {
+          "opp": "CLE",
+          "home": true
+        },
+        "13": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "14": {
+          "opp": "NYG",
+          "home": false
+        },
+        "15": {
+          "opp": "CLE",
+          "home": true
+        },
+        "16": {
+          "opp": "MIA",
+          "home": true
+        },
+        "17": {
+          "opp": "BAL",
+          "home": false
+        },
+        "18": {
+          "opp": "DEN",
+          "home": true
+        }
+      },
+      "expert_rank": 7
+    },
+    {
+      "id": "sample-Aiden Kellerman",
+      "name": "Aiden Kellerman",
+      "position": "QB",
+      "team": "SF",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 9.891,
+          "p": 0.2667
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.651,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 5.6,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.04,
+        "int_per_att": 0.0312
+      },
+      "rushing": {
+        "volume": {
+          "r": 1.318,
+          "p": 0.32
+        },
+        "ypc": 5.07,
+        "td_per_carry": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "DEN",
+          "home": true
+        },
+        "2": {
+          "opp": "HOU",
+          "home": false
+        },
+        "3": {
+          "opp": "CAR",
+          "home": false
+        },
+        "4": {
+          "opp": "BAL",
+          "home": true
+        },
+        "5": {
+          "opp": "TB",
+          "home": false
+        },
+        "6": {
+          "opp": "WSH",
+          "home": true
+        },
+        "7": {
+          "opp": "IND",
+          "home": true
+        },
+        "8": {
+          "opp": "MIN",
+          "home": false
+        },
+        "9": {
+          "opp": "HOU",
+          "home": true
+        },
+        "11": {
+          "opp": "LV",
+          "home": true
+        },
+        "12": {
+          "opp": "CLE",
+          "home": false
+        },
+        "13": {
+          "opp": "SEA",
+          "home": false
+        },
+        "14": {
+          "opp": "LV",
+          "home": false
+        },
+        "15": {
+          "opp": "TB",
+          "home": true
+        },
+        "16": {
+          "opp": "CAR",
+          "home": false
+        },
+        "17": {
+          "opp": "DEN",
+          "home": false
+        },
+        "18": {
+          "opp": "CIN",
+          "home": true
+        }
+      },
+      "expert_rank": 8
+    },
+    {
+      "id": "sample-Alex Sutton",
+      "name": "Alex Sutton",
+      "position": "QB",
+      "team": "LAR",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 9.891,
+          "p": 0.2667
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.644,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 5.3,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.04,
+        "int_per_att": 0.0312
+      },
+      "rushing": {
+        "volume": {
+          "r": 1.318,
+          "p": 0.32
+        },
+        "ypc": 4.49,
+        "td_per_carry": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "BAL",
+          "home": false
+        },
+        "2": {
+          "opp": "LV",
+          "home": true
+        },
+        "3": {
+          "opp": "CLE",
+          "home": false
+        },
+        "4": {
+          "opp": "NYG",
+          "home": false
+        },
+        "5": {
+          "opp": "TEN",
+          "home": false
+        },
+        "6": {
+          "opp": "HOU",
+          "home": true
+        },
+        "7": {
+          "opp": "DAL",
+          "home": false
+        },
+        "8": {
+          "opp": "SEA",
+          "home": true
+        },
+        "9": {
+          "opp": "CIN",
+          "home": false
+        },
+        "11": {
+          "opp": "TEN",
+          "home": false
+        },
+        "12": {
+          "opp": "BAL",
+          "home": false
+        },
+        "13": {
+          "opp": "MIA",
+          "home": true
+        },
+        "14": {
+          "opp": "DAL",
+          "home": false
+        },
+        "15": {
+          "opp": "LV",
+          "home": false
+        },
+        "16": {
+          "opp": "PIT",
+          "home": false
+        },
+        "17": {
+          "opp": "DET",
+          "home": true
+        },
+        "18": {
+          "opp": "NO",
+          "home": true
+        }
+      },
+      "expert_rank": 9
+    },
+    {
+      "id": "sample-Miles Vance",
+      "name": "Miles Vance",
+      "position": "QB",
+      "team": "HOU",
+      "games_sampled": 24,
+      "volume": {
+        "attempts": {
+          "r": 9.891,
+          "p": 0.2667
+        }
+      },
+      "efficiency": {
+        "comp_pct": {
+          "mean": 0.604,
+          "std": 0.05
+        },
+        "yards_per_attempt": {
+          "mean": 6.19,
+          "std": 1.1
+        }
+      },
+      "td_rate": {
+        "pass_td_per_att": 0.04,
+        "int_per_att": 0.0312
+      },
+      "rushing": {
+        "volume": {
+          "r": 1.318,
+          "p": 0.32
+        },
+        "ypc": 6.31,
+        "td_per_carry": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "DAL",
+          "home": false
+        },
+        "2": {
+          "opp": "DEN",
+          "home": true
+        },
+        "3": {
+          "opp": "WSH",
+          "home": true
+        },
+        "4": {
+          "opp": "KC",
+          "home": false
+        },
+        "5": {
+          "opp": "TEN",
+          "home": false
+        },
+        "6": {
+          "opp": "MIA",
+          "home": true
+        },
+        "7": {
+          "opp": "NE",
+          "home": false
+        },
+        "9": {
+          "opp": "DEN",
+          "home": true
+        },
+        "10": {
+          "opp": "LAC",
+          "home": true
+        },
+        "11": {
+          "opp": "CLE",
+          "home": true
+        },
+        "12": {
+          "opp": "TB",
+          "home": true
+        },
+        "13": {
+          "opp": "CAR",
+          "home": true
+        },
+        "14": {
+          "opp": "WSH",
+          "home": true
+        },
+        "15": {
+          "opp": "LV",
+          "home": false
+        },
+        "16": {
+          "opp": "HOU",
+          "home": false
+        },
+        "17": {
+          "opp": "GB",
+          "home": true
+        },
+        "18": {
+          "opp": "HOU",
+          "home": false
+        }
+      },
+      "expert_rank": 10
+    },
+    {
+      "id": "sample-Miles Marsh",
+      "name": "Miles Marsh",
+      "position": "RB",
+      "team": "JAX",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 16.333,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 3.88,
+          "std": 1.4
+        },
+        "catch_rate": 0.71,
+        "ypr": {
+          "mean": 10.4,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "PHI",
+          "home": true
+        },
+        "2": {
+          "opp": "PHI",
+          "home": false
+        },
+        "3": {
+          "opp": "TEN",
+          "home": false
+        },
+        "4": {
+          "opp": "ARI",
+          "home": false
+        },
+        "5": {
+          "opp": "MIN",
+          "home": true
+        },
+        "6": {
+          "opp": "CHI",
+          "home": false
+        },
+        "7": {
+          "opp": "WSH",
+          "home": false
+        },
+        "8": {
+          "opp": "TEN",
+          "home": false
+        },
+        "9": {
+          "opp": "ATL",
+          "home": false
+        },
+        "10": {
+          "opp": "NYG",
+          "home": true
+        },
+        "11": {
+          "opp": "DEN",
+          "home": false
+        },
+        "12": {
+          "opp": "BUF",
+          "home": false
+        },
+        "13": {
+          "opp": "CIN",
+          "home": false
+        },
+        "15": {
+          "opp": "NE",
+          "home": false
+        },
+        "16": {
+          "opp": "WSH",
+          "home": false
+        },
+        "17": {
+          "opp": "LV",
+          "home": false
+        },
+        "18": {
+          "opp": "IND",
+          "home": true
+        }
+      },
+      "expert_rank": 1
+    },
+    {
+      "id": "sample-Brandon Priest",
+      "name": "Brandon Priest",
+      "position": "RB",
+      "team": "CHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 16.333,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.81,
+          "std": 1.4
+        },
+        "catch_rate": 0.68,
+        "ypr": {
+          "mean": 9.92,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NE",
+          "home": true
+        },
+        "2": {
+          "opp": "TB",
+          "home": true
+        },
+        "3": {
+          "opp": "HOU",
+          "home": true
+        },
+        "4": {
+          "opp": "MIA",
+          "home": true
+        },
+        "5": {
+          "opp": "LV",
+          "home": false
+        },
+        "6": {
+          "opp": "NE",
+          "home": false
+        },
+        "7": {
+          "opp": "MIN",
+          "home": true
+        },
+        "9": {
+          "opp": "ATL",
+          "home": true
+        },
+        "10": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "11": {
+          "opp": "LAC",
+          "home": false
+        },
+        "12": {
+          "opp": "BUF",
+          "home": false
+        },
+        "13": {
+          "opp": "BAL",
+          "home": true
+        },
+        "14": {
+          "opp": "CIN",
+          "home": true
+        },
+        "15": {
+          "opp": "BAL",
+          "home": true
+        },
+        "16": {
+          "opp": "SF",
+          "home": false
+        },
+        "17": {
+          "opp": "BAL",
+          "home": true
+        },
+        "18": {
+          "opp": "LAC",
+          "home": true
+        }
+      },
+      "expert_rank": 2
+    },
+    {
+      "id": "sample-Tyler Whitfield",
+      "name": "Tyler Whitfield",
+      "position": "RB",
+      "team": "LAR",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 16.333,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.49,
+          "std": 1.4
+        },
+        "catch_rate": 0.66,
+        "ypr": {
+          "mean": 10.9,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NE",
+          "home": true
+        },
+        "2": {
+          "opp": "DEN",
+          "home": false
+        },
+        "3": {
+          "opp": "IND",
+          "home": false
+        },
+        "4": {
+          "opp": "WSH",
+          "home": true
+        },
+        "5": {
+          "opp": "HOU",
+          "home": false
+        },
+        "6": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "7": {
+          "opp": "CLE",
+          "home": true
+        },
+        "8": {
+          "opp": "SEA",
+          "home": false
+        },
+        "9": {
+          "opp": "PHI",
+          "home": false
+        },
+        "11": {
+          "opp": "LAR",
+          "home": true
+        },
+        "12": {
+          "opp": "DEN",
+          "home": false
+        },
+        "13": {
+          "opp": "CIN",
+          "home": true
+        },
+        "14": {
+          "opp": "MIA",
+          "home": false
+        },
+        "15": {
+          "opp": "BAL",
+          "home": true
+        },
+        "16": {
+          "opp": "ARI",
+          "home": true
+        },
+        "17": {
+          "opp": "ATL",
+          "home": false
+        },
+        "18": {
+          "opp": "KC",
+          "home": false
+        }
+      },
+      "expert_rank": 3
+    },
+    {
+      "id": "sample-Marcus Reyes",
+      "name": "Marcus Reyes",
+      "position": "RB",
+      "team": "DAL",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 16.333,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.13,
+          "std": 1.4
+        },
+        "catch_rate": 0.61,
+        "ypr": {
+          "mean": 12.6,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYG",
+          "home": true
+        },
+        "2": {
+          "opp": "MIN",
+          "home": false
+        },
+        "3": {
+          "opp": "SEA",
+          "home": false
+        },
+        "4": {
+          "opp": "JAX",
+          "home": false
+        },
+        "5": {
+          "opp": "SEA",
+          "home": true
+        },
+        "6": {
+          "opp": "CAR",
+          "home": false
+        },
+        "7": {
+          "opp": "IND",
+          "home": false
+        },
+        "8": {
+          "opp": "ATL",
+          "home": false
+        },
+        "9": {
+          "opp": "DET",
+          "home": false
+        },
+        "10": {
+          "opp": "DET",
+          "home": true
+        },
+        "11": {
+          "opp": "PIT",
+          "home": true
+        },
+        "12": {
+          "opp": "DEN",
+          "home": true
+        },
+        "13": {
+          "opp": "PHI",
+          "home": false
+        },
+        "15": {
+          "opp": "BAL",
+          "home": false
+        },
+        "16": {
+          "opp": "BAL",
+          "home": false
+        },
+        "17": {
+          "opp": "TB",
+          "home": true
+        },
+        "18": {
+          "opp": "NYJ",
+          "home": false
+        }
+      },
+      "expert_rank": 4
+    },
+    {
+      "id": "sample-Jordan Sawyer",
+      "name": "Jordan Sawyer",
+      "position": "RB",
+      "team": "PHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 11.667,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 5.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.69,
+          "std": 1.4
+        },
+        "catch_rate": 0.61,
+        "ypr": {
+          "mean": 13.36,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "CHI",
+          "home": false
+        },
+        "2": {
+          "opp": "MIN",
+          "home": true
+        },
+        "3": {
+          "opp": "TB",
+          "home": true
+        },
+        "4": {
+          "opp": "CAR",
+          "home": true
+        },
+        "5": {
+          "opp": "KC",
+          "home": true
+        },
+        "6": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "7": {
+          "opp": "NO",
+          "home": false
+        },
+        "8": {
+          "opp": "HOU",
+          "home": true
+        },
+        "9": {
+          "opp": "PHI",
+          "home": false
+        },
+        "10": {
+          "opp": "HOU",
+          "home": false
+        },
+        "11": {
+          "opp": "NO",
+          "home": false
+        },
+        "13": {
+          "opp": "WSH",
+          "home": false
+        },
+        "14": {
+          "opp": "DAL",
+          "home": false
+        },
+        "15": {
+          "opp": "LAC",
+          "home": false
+        },
+        "16": {
+          "opp": "CAR",
+          "home": false
+        },
+        "17": {
+          "opp": "JAX",
+          "home": false
+        },
+        "18": {
+          "opp": "SEA",
+          "home": true
+        }
+      },
+      "expert_rank": 5
+    },
+    {
+      "id": "sample-Aiden Sutton",
+      "name": "Aiden Sutton",
+      "position": "RB",
+      "team": "ARI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 11.667,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 5.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.4,
+          "std": 1.4
+        },
+        "catch_rate": 0.69,
+        "ypr": {
+          "mean": 9.72,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "DET",
+          "home": true
+        },
+        "2": {
+          "opp": "CHI",
+          "home": false
+        },
+        "3": {
+          "opp": "DAL",
+          "home": true
+        },
+        "4": {
+          "opp": "DEN",
+          "home": true
+        },
+        "5": {
+          "opp": "NO",
+          "home": false
+        },
+        "6": {
+          "opp": "KC",
+          "home": false
+        },
+        "7": {
+          "opp": "DET",
+          "home": true
+        },
+        "9": {
+          "opp": "SEA",
+          "home": false
+        },
+        "10": {
+          "opp": "MIN",
+          "home": false
+        },
+        "11": {
+          "opp": "KC",
+          "home": false
+        },
+        "12": {
+          "opp": "LAC",
+          "home": false
+        },
+        "13": {
+          "opp": "ARI",
+          "home": false
+        },
+        "14": {
+          "opp": "WSH",
+          "home": true
+        },
+        "15": {
+          "opp": "MIA",
+          "home": false
+        },
+        "16": {
+          "opp": "TB",
+          "home": true
+        },
+        "17": {
+          "opp": "SF",
+          "home": true
+        },
+        "18": {
+          "opp": "SEA",
+          "home": false
+        }
+      },
+      "expert_rank": 6
+    },
+    {
+      "id": "sample-Brandon Sawyer",
+      "name": "Brandon Sawyer",
+      "position": "RB",
+      "team": "LAR",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 11.667,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 5.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.16,
+          "std": 1.4
+        },
+        "catch_rate": 0.63,
+        "ypr": {
+          "mean": 9.05,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "IND",
+          "home": true
+        },
+        "2": {
+          "opp": "CLE",
+          "home": true
+        },
+        "3": {
+          "opp": "LAR",
+          "home": false
+        },
+        "4": {
+          "opp": "NE",
+          "home": false
+        },
+        "5": {
+          "opp": "HOU",
+          "home": false
+        },
+        "6": {
+          "opp": "NE",
+          "home": true
+        },
+        "7": {
+          "opp": "WSH",
+          "home": true
+        },
+        "9": {
+          "opp": "DAL",
+          "home": true
+        },
+        "10": {
+          "opp": "TB",
+          "home": true
+        },
+        "11": {
+          "opp": "PIT",
+          "home": false
+        },
+        "12": {
+          "opp": "WSH",
+          "home": true
+        },
+        "13": {
+          "opp": "DEN",
+          "home": false
+        },
+        "14": {
+          "opp": "LV",
+          "home": true
+        },
+        "15": {
+          "opp": "BUF",
+          "home": false
+        },
+        "16": {
+          "opp": "WSH",
+          "home": true
+        },
+        "17": {
+          "opp": "NYG",
+          "home": true
+        },
+        "18": {
+          "opp": "LAC",
+          "home": false
+        }
+      },
+      "expert_rank": 7
+    },
+    {
+      "id": "sample-Cam Kellerman",
+      "name": "Cam Kellerman",
+      "position": "RB",
+      "team": "LAC",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 11.667,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 5.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 3.84,
+          "std": 1.4
+        },
+        "catch_rate": 0.66,
+        "ypr": {
+          "mean": 11.75,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "MIA",
+          "home": false
+        },
+        "2": {
+          "opp": "NO",
+          "home": false
+        },
+        "3": {
+          "opp": "LV",
+          "home": true
+        },
+        "4": {
+          "opp": "MIN",
+          "home": false
+        },
+        "5": {
+          "opp": "NE",
+          "home": true
+        },
+        "7": {
+          "opp": "NO",
+          "home": false
+        },
+        "8": {
+          "opp": "CAR",
+          "home": false
+        },
+        "9": {
+          "opp": "PHI",
+          "home": true
+        },
+        "10": {
+          "opp": "BAL",
+          "home": false
+        },
+        "11": {
+          "opp": "DEN",
+          "home": false
+        },
+        "12": {
+          "opp": "DEN",
+          "home": false
+        },
+        "13": {
+          "opp": "LV",
+          "home": false
+        },
+        "14": {
+          "opp": "PHI",
+          "home": false
+        },
+        "15": {
+          "opp": "SEA",
+          "home": true
+        },
+        "16": {
+          "opp": "LV",
+          "home": false
+        },
+        "17": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "18": {
+          "opp": "IND",
+          "home": true
+        }
+      },
+      "expert_rank": 8
+    },
+    {
+      "id": "sample-Jordan Whitfield",
+      "name": "Jordan Whitfield",
+      "position": "RB",
+      "team": "MIA",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 11.667,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 5.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.16,
+          "std": 1.4
+        },
+        "catch_rate": 0.61,
+        "ypr": {
+          "mean": 8.76,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "TEN",
+          "home": false
+        },
+        "2": {
+          "opp": "CHI",
+          "home": true
+        },
+        "3": {
+          "opp": "CIN",
+          "home": true
+        },
+        "4": {
+          "opp": "DET",
+          "home": false
+        },
+        "5": {
+          "opp": "LAR",
+          "home": false
+        },
+        "7": {
+          "opp": "ATL",
+          "home": true
+        },
+        "8": {
+          "opp": "DET",
+          "home": false
+        },
+        "9": {
+          "opp": "CLE",
+          "home": false
+        },
+        "10": {
+          "opp": "NYG",
+          "home": false
+        },
+        "11": {
+          "opp": "NO",
+          "home": true
+        },
+        "12": {
+          "opp": "PIT",
+          "home": true
+        },
+        "13": {
+          "opp": "KC",
+          "home": false
+        },
+        "14": {
+          "opp": "WSH",
+          "home": true
+        },
+        "15": {
+          "opp": "TB",
+          "home": false
+        },
+        "16": {
+          "opp": "SF",
+          "home": false
+        },
+        "17": {
+          "opp": "ARI",
+          "home": false
+        },
+        "18": {
+          "opp": "MIN",
+          "home": true
+        }
+      },
+      "expert_rank": 9
+    },
+    {
+      "id": "sample-Rashad Harper",
+      "name": "Rashad Harper",
+      "position": "RB",
+      "team": "NO",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 11.667,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 5.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.15,
+          "std": 1.4
+        },
+        "catch_rate": 0.71,
+        "ypr": {
+          "mean": 10.52,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NE",
+          "home": false
+        },
+        "2": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "3": {
+          "opp": "BAL",
+          "home": true
+        },
+        "4": {
+          "opp": "DET",
+          "home": false
+        },
+        "5": {
+          "opp": "DET",
+          "home": true
+        },
+        "6": {
+          "opp": "NE",
+          "home": false
+        },
+        "7": {
+          "opp": "CHI",
+          "home": true
+        },
+        "8": {
+          "opp": "WSH",
+          "home": false
+        },
+        "9": {
+          "opp": "BAL",
+          "home": false
+        },
+        "10": {
+          "opp": "LV",
+          "home": false
+        },
+        "11": {
+          "opp": "LAR",
+          "home": true
+        },
+        "13": {
+          "opp": "ATL",
+          "home": true
+        },
+        "14": {
+          "opp": "TB",
+          "home": true
+        },
+        "15": {
+          "opp": "HOU",
+          "home": true
+        },
+        "16": {
+          "opp": "TEN",
+          "home": false
+        },
+        "17": {
+          "opp": "WSH",
+          "home": true
+        },
+        "18": {
+          "opp": "IND",
+          "home": true
+        }
+      },
+      "expert_rank": 10
+    },
+    {
+      "id": "sample-Trevor Sawyer",
+      "name": "Trevor Sawyer",
+      "position": "RB",
+      "team": "CHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 7.0,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 3.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.45,
+          "std": 1.4
+        },
+        "catch_rate": 0.74,
+        "ypr": {
+          "mean": 11.48,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "DEN",
+          "home": false
+        },
+        "2": {
+          "opp": "JAX",
+          "home": false
+        },
+        "3": {
+          "opp": "BAL",
+          "home": true
+        },
+        "4": {
+          "opp": "SF",
+          "home": true
+        },
+        "5": {
+          "opp": "CHI",
+          "home": false
+        },
+        "6": {
+          "opp": "TB",
+          "home": true
+        },
+        "7": {
+          "opp": "BAL",
+          "home": false
+        },
+        "8": {
+          "opp": "CIN",
+          "home": false
+        },
+        "9": {
+          "opp": "NO",
+          "home": false
+        },
+        "10": {
+          "opp": "ARI",
+          "home": false
+        },
+        "11": {
+          "opp": "HOU",
+          "home": false
+        },
+        "12": {
+          "opp": "LAC",
+          "home": true
+        },
+        "13": {
+          "opp": "PIT",
+          "home": true
+        },
+        "15": {
+          "opp": "PHI",
+          "home": false
+        },
+        "16": {
+          "opp": "NYG",
+          "home": false
+        },
+        "17": {
+          "opp": "DAL",
+          "home": false
+        },
+        "18": {
+          "opp": "LAC",
+          "home": false
+        }
+      },
+      "expert_rank": 11
+    },
+    {
+      "id": "sample-Cam Reyes",
+      "name": "Cam Reyes",
+      "position": "RB",
+      "team": "PHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 7.0,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 3.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.04,
+          "std": 1.4
+        },
+        "catch_rate": 0.7,
+        "ypr": {
+          "mean": 10.13,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "DAL",
+          "home": true
+        },
+        "2": {
+          "opp": "LV",
+          "home": true
+        },
+        "3": {
+          "opp": "CLE",
+          "home": true
+        },
+        "4": {
+          "opp": "NE",
+          "home": false
+        },
+        "5": {
+          "opp": "SF",
+          "home": true
+        },
+        "6": {
+          "opp": "LV",
+          "home": true
+        },
+        "7": {
+          "opp": "MIN",
+          "home": false
+        },
+        "8": {
+          "opp": "PHI",
+          "home": false
+        },
+        "9": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "10": {
+          "opp": "DEN",
+          "home": true
+        },
+        "11": {
+          "opp": "MIN",
+          "home": true
+        },
+        "13": {
+          "opp": "TEN",
+          "home": false
+        },
+        "14": {
+          "opp": "DAL",
+          "home": true
+        },
+        "15": {
+          "opp": "BUF",
+          "home": false
+        },
+        "16": {
+          "opp": "GB",
+          "home": false
+        },
+        "17": {
+          "opp": "MIN",
+          "home": false
+        },
+        "18": {
+          "opp": "NE",
+          "home": false
+        }
+      },
+      "expert_rank": 12
+    },
+    {
+      "id": "sample-Miles Harper",
+      "name": "Miles Harper",
+      "position": "RB",
+      "team": "KC",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 7.0,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 3.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.94,
+          "std": 1.4
+        },
+        "catch_rate": 0.74,
+        "ypr": {
+          "mean": 10.54,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "TEN",
+          "home": true
+        },
+        "2": {
+          "opp": "BAL",
+          "home": false
+        },
+        "3": {
+          "opp": "SEA",
+          "home": true
+        },
+        "4": {
+          "opp": "BAL",
+          "home": false
+        },
+        "5": {
+          "opp": "CAR",
+          "home": true
+        },
+        "6": {
+          "opp": "IND",
+          "home": true
+        },
+        "7": {
+          "opp": "CIN",
+          "home": true
+        },
+        "8": {
+          "opp": "CAR",
+          "home": true
+        },
+        "9": {
+          "opp": "NO",
+          "home": true
+        },
+        "10": {
+          "opp": "WSH",
+          "home": false
+        },
+        "12": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "13": {
+          "opp": "GB",
+          "home": false
+        },
+        "14": {
+          "opp": "MIA",
+          "home": true
+        },
+        "15": {
+          "opp": "MIN",
+          "home": true
+        },
+        "16": {
+          "opp": "CAR",
+          "home": true
+        },
+        "17": {
+          "opp": "KC",
+          "home": true
+        },
+        "18": {
+          "opp": "TB",
+          "home": true
+        }
+      },
+      "expert_rank": 13
+    },
+    {
+      "id": "sample-Elijah Coleman",
+      "name": "Elijah Coleman",
+      "position": "RB",
+      "team": "CIN",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 7.0,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 3.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.37,
+          "std": 1.4
+        },
+        "catch_rate": 0.76,
+        "ypr": {
+          "mean": 10.8,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "HOU",
+          "home": false
+        },
+        "2": {
+          "opp": "IND",
+          "home": true
+        },
+        "3": {
+          "opp": "CAR",
+          "home": false
+        },
+        "4": {
+          "opp": "MIN",
+          "home": true
+        },
+        "5": {
+          "opp": "JAX",
+          "home": false
+        },
+        "6": {
+          "opp": "PHI",
+          "home": false
+        },
+        "7": {
+          "opp": "JAX",
+          "home": true
+        },
+        "9": {
+          "opp": "CLE",
+          "home": false
+        },
+        "10": {
+          "opp": "DEN",
+          "home": false
+        },
+        "11": {
+          "opp": "NE",
+          "home": true
+        },
+        "12": {
+          "opp": "SF",
+          "home": false
+        },
+        "13": {
+          "opp": "ATL",
+          "home": false
+        },
+        "14": {
+          "opp": "JAX",
+          "home": true
+        },
+        "15": {
+          "opp": "LV",
+          "home": true
+        },
+        "16": {
+          "opp": "DEN",
+          "home": true
+        },
+        "17": {
+          "opp": "TEN",
+          "home": true
+        },
+        "18": {
+          "opp": "NE",
+          "home": false
+        }
+      },
+      "expert_rank": 14
+    },
+    {
+      "id": "sample-Chris Marsh",
+      "name": "Chris Marsh",
+      "position": "RB",
+      "team": "GB",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 7.0,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 3.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 3.97,
+          "std": 1.4
+        },
+        "catch_rate": 0.63,
+        "ypr": {
+          "mean": 12.12,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NE",
+          "home": true
+        },
+        "2": {
+          "opp": "NE",
+          "home": true
+        },
+        "3": {
+          "opp": "CHI",
+          "home": false
+        },
+        "4": {
+          "opp": "LAR",
+          "home": true
+        },
+        "5": {
+          "opp": "WSH",
+          "home": true
+        },
+        "6": {
+          "opp": "WSH",
+          "home": true
+        },
+        "7": {
+          "opp": "TB",
+          "home": false
+        },
+        "8": {
+          "opp": "MIN",
+          "home": false
+        },
+        "10": {
+          "opp": "ARI",
+          "home": false
+        },
+        "11": {
+          "opp": "BUF",
+          "home": true
+        },
+        "12": {
+          "opp": "SEA",
+          "home": false
+        },
+        "13": {
+          "opp": "ARI",
+          "home": true
+        },
+        "14": {
+          "opp": "LAR",
+          "home": true
+        },
+        "15": {
+          "opp": "SF",
+          "home": false
+        },
+        "16": {
+          "opp": "BAL",
+          "home": false
+        },
+        "17": {
+          "opp": "TB",
+          "home": false
+        },
+        "18": {
+          "opp": "ARI",
+          "home": true
+        }
+      },
+      "expert_rank": 15
+    },
+    {
+      "id": "sample-Jordan Harper",
+      "name": "Jordan Harper",
+      "position": "RB",
+      "team": "HOU",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 7.0,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 3.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 3.92,
+          "std": 1.4
+        },
+        "catch_rate": 0.73,
+        "ypr": {
+          "mean": 12.39,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "CIN",
+          "home": false
+        },
+        "2": {
+          "opp": "ATL",
+          "home": true
+        },
+        "3": {
+          "opp": "HOU",
+          "home": false
+        },
+        "4": {
+          "opp": "BAL",
+          "home": true
+        },
+        "5": {
+          "opp": "PIT",
+          "home": false
+        },
+        "6": {
+          "opp": "SEA",
+          "home": false
+        },
+        "7": {
+          "opp": "JAX",
+          "home": true
+        },
+        "8": {
+          "opp": "LV",
+          "home": false
+        },
+        "9": {
+          "opp": "GB",
+          "home": true
+        },
+        "10": {
+          "opp": "DAL",
+          "home": false
+        },
+        "11": {
+          "opp": "NYG",
+          "home": true
+        },
+        "12": {
+          "opp": "LAR",
+          "home": false
+        },
+        "13": {
+          "opp": "SF",
+          "home": false
+        },
+        "15": {
+          "opp": "DAL",
+          "home": true
+        },
+        "16": {
+          "opp": "LAC",
+          "home": false
+        },
+        "17": {
+          "opp": "NE",
+          "home": false
+        },
+        "18": {
+          "opp": "CAR",
+          "home": false
+        }
+      },
+      "expert_rank": 16
+    },
+    {
+      "id": "sample-Miles Rourke",
+      "name": "Miles Rourke",
+      "position": "WR",
+      "team": "CHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 14.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.05,
+          "std": 1.4
+        },
+        "catch_rate": 0.61,
+        "ypr": {
+          "mean": 12.42,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "2": {
+          "opp": "MIN",
+          "home": true
+        },
+        "3": {
+          "opp": "ARI",
+          "home": true
+        },
+        "4": {
+          "opp": "CLE",
+          "home": false
+        },
+        "5": {
+          "opp": "CAR",
+          "home": true
+        },
+        "6": {
+          "opp": "MIN",
+          "home": false
+        },
+        "8": {
+          "opp": "MIN",
+          "home": true
+        },
+        "9": {
+          "opp": "MIN",
+          "home": false
+        },
+        "10": {
+          "opp": "CIN",
+          "home": false
+        },
+        "11": {
+          "opp": "TEN",
+          "home": true
+        },
+        "12": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "13": {
+          "opp": "DAL",
+          "home": false
+        },
+        "14": {
+          "opp": "CHI",
+          "home": true
+        },
+        "15": {
+          "opp": "NE",
+          "home": false
+        },
+        "16": {
+          "opp": "PHI",
+          "home": true
+        },
+        "17": {
+          "opp": "TB",
+          "home": false
+        },
+        "18": {
+          "opp": "MIN",
+          "home": true
+        }
+      },
+      "expert_rank": 1
+    },
+    {
+      "id": "sample-Jalen Odom",
+      "name": "Jalen Odom",
+      "position": "WR",
+      "team": "LV",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 14.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.66,
+          "std": 1.4
+        },
+        "catch_rate": 0.59,
+        "ypr": {
+          "mean": 8.77,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "WSH",
+          "home": false
+        },
+        "2": {
+          "opp": "GB",
+          "home": true
+        },
+        "3": {
+          "opp": "NO",
+          "home": true
+        },
+        "4": {
+          "opp": "HOU",
+          "home": false
+        },
+        "5": {
+          "opp": "SF",
+          "home": false
+        },
+        "6": {
+          "opp": "BUF",
+          "home": true
+        },
+        "7": {
+          "opp": "LAC",
+          "home": true
+        },
+        "8": {
+          "opp": "ARI",
+          "home": false
+        },
+        "9": {
+          "opp": "IND",
+          "home": true
+        },
+        "10": {
+          "opp": "NYG",
+          "home": false
+        },
+        "12": {
+          "opp": "DAL",
+          "home": true
+        },
+        "13": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "14": {
+          "opp": "GB",
+          "home": true
+        },
+        "15": {
+          "opp": "ARI",
+          "home": true
+        },
+        "16": {
+          "opp": "SEA",
+          "home": false
+        },
+        "17": {
+          "opp": "BUF",
+          "home": false
+        },
+        "18": {
+          "opp": "MIA",
+          "home": false
+        }
+      },
+      "expert_rank": 2
+    },
+    {
+      "id": "sample-Jordan Priest",
+      "name": "Jordan Priest",
+      "position": "WR",
+      "team": "CLE",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 14.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 3.82,
+          "std": 1.4
+        },
+        "catch_rate": 0.69,
+        "ypr": {
+          "mean": 13.2,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NO",
+          "home": false
+        },
+        "2": {
+          "opp": "NO",
+          "home": true
+        },
+        "3": {
+          "opp": "TEN",
+          "home": true
+        },
+        "4": {
+          "opp": "BAL",
+          "home": false
+        },
+        "5": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "6": {
+          "opp": "SF",
+          "home": true
+        },
+        "7": {
+          "opp": "BUF",
+          "home": false
+        },
+        "9": {
+          "opp": "TB",
+          "home": true
+        },
+        "10": {
+          "opp": "LAR",
+          "home": false
+        },
+        "11": {
+          "opp": "ARI",
+          "home": false
+        },
+        "12": {
+          "opp": "CLE",
+          "home": false
+        },
+        "13": {
+          "opp": "NE",
+          "home": false
+        },
+        "14": {
+          "opp": "DAL",
+          "home": true
+        },
+        "15": {
+          "opp": "NYG",
+          "home": true
+        },
+        "16": {
+          "opp": "TB",
+          "home": true
+        },
+        "17": {
+          "opp": "DAL",
+          "home": false
+        },
+        "18": {
+          "opp": "KC",
+          "home": false
+        }
+      },
+      "expert_rank": 3
+    },
+    {
+      "id": "sample-Alex Reyes",
+      "name": "Alex Reyes",
+      "position": "WR",
+      "team": "DAL",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 14.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.07,
+          "std": 1.4
+        },
+        "catch_rate": 0.75,
+        "ypr": {
+          "mean": 9.51,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "CHI",
+          "home": false
+        },
+        "2": {
+          "opp": "ATL",
+          "home": false
+        },
+        "3": {
+          "opp": "LAC",
+          "home": false
+        },
+        "4": {
+          "opp": "SF",
+          "home": false
+        },
+        "5": {
+          "opp": "BUF",
+          "home": true
+        },
+        "6": {
+          "opp": "TB",
+          "home": true
+        },
+        "7": {
+          "opp": "LV",
+          "home": true
+        },
+        "9": {
+          "opp": "WSH",
+          "home": true
+        },
+        "10": {
+          "opp": "CAR",
+          "home": true
+        },
+        "11": {
+          "opp": "BAL",
+          "home": true
+        },
+        "12": {
+          "opp": "JAX",
+          "home": false
+        },
+        "13": {
+          "opp": "MIA",
+          "home": false
+        },
+        "14": {
+          "opp": "JAX",
+          "home": false
+        },
+        "15": {
+          "opp": "IND",
+          "home": true
+        },
+        "16": {
+          "opp": "MIA",
+          "home": false
+        },
+        "17": {
+          "opp": "NE",
+          "home": true
+        },
+        "18": {
+          "opp": "NE",
+          "home": false
+        }
+      },
+      "expert_rank": 4
+    },
+    {
+      "id": "sample-Xavier Whitfield",
+      "name": "Xavier Whitfield",
+      "position": "WR",
+      "team": "BAL",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 14.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.03,
+          "std": 1.4
+        },
+        "catch_rate": 0.73,
+        "ypr": {
+          "mean": 12.06,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "CLE",
+          "home": false
+        },
+        "2": {
+          "opp": "KC",
+          "home": false
+        },
+        "3": {
+          "opp": "NE",
+          "home": true
+        },
+        "4": {
+          "opp": "CIN",
+          "home": true
+        },
+        "5": {
+          "opp": "PHI",
+          "home": false
+        },
+        "6": {
+          "opp": "HOU",
+          "home": false
+        },
+        "7": {
+          "opp": "KC",
+          "home": false
+        },
+        "8": {
+          "opp": "DET",
+          "home": false
+        },
+        "9": {
+          "opp": "MIA",
+          "home": false
+        },
+        "10": {
+          "opp": "PHI",
+          "home": false
+        },
+        "11": {
+          "opp": "MIN",
+          "home": true
+        },
+        "13": {
+          "opp": "SF",
+          "home": true
+        },
+        "14": {
+          "opp": "MIA",
+          "home": true
+        },
+        "15": {
+          "opp": "MIA",
+          "home": false
+        },
+        "16": {
+          "opp": "CLE",
+          "home": false
+        },
+        "17": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "18": {
+          "opp": "KC",
+          "home": true
+        }
+      },
+      "expert_rank": 5
+    },
+    {
+      "id": "sample-Marcus Vance",
+      "name": "Marcus Vance",
+      "position": "WR",
+      "team": "PHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.04,
+          "std": 1.4
+        },
+        "catch_rate": 0.58,
+        "ypr": {
+          "mean": 9.51,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "BUF",
+          "home": false
+        },
+        "2": {
+          "opp": "CLE",
+          "home": false
+        },
+        "3": {
+          "opp": "TEN",
+          "home": true
+        },
+        "4": {
+          "opp": "GB",
+          "home": true
+        },
+        "5": {
+          "opp": "DAL",
+          "home": true
+        },
+        "7": {
+          "opp": "JAX",
+          "home": false
+        },
+        "8": {
+          "opp": "KC",
+          "home": true
+        },
+        "9": {
+          "opp": "LV",
+          "home": false
+        },
+        "10": {
+          "opp": "PIT",
+          "home": true
+        },
+        "11": {
+          "opp": "CIN",
+          "home": false
+        },
+        "12": {
+          "opp": "CLE",
+          "home": true
+        },
+        "13": {
+          "opp": "GB",
+          "home": false
+        },
+        "14": {
+          "opp": "CAR",
+          "home": true
+        },
+        "15": {
+          "opp": "CIN",
+          "home": false
+        },
+        "16": {
+          "opp": "MIA",
+          "home": false
+        },
+        "17": {
+          "opp": "WSH",
+          "home": false
+        },
+        "18": {
+          "opp": "JAX",
+          "home": false
+        }
+      },
+      "expert_rank": 6
+    },
+    {
+      "id": "sample-Cam Odom",
+      "name": "Cam Odom",
+      "position": "WR",
+      "team": "HOU",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.54,
+          "std": 1.4
+        },
+        "catch_rate": 0.73,
+        "ypr": {
+          "mean": 12.26,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "GB",
+          "home": true
+        },
+        "2": {
+          "opp": "IND",
+          "home": true
+        },
+        "3": {
+          "opp": "ARI",
+          "home": true
+        },
+        "4": {
+          "opp": "CHI",
+          "home": false
+        },
+        "5": {
+          "opp": "ARI",
+          "home": true
+        },
+        "7": {
+          "opp": "DAL",
+          "home": true
+        },
+        "8": {
+          "opp": "HOU",
+          "home": false
+        },
+        "9": {
+          "opp": "LAC",
+          "home": true
+        },
+        "10": {
+          "opp": "NYG",
+          "home": false
+        },
+        "11": {
+          "opp": "IND",
+          "home": true
+        },
+        "12": {
+          "opp": "LAC",
+          "home": true
+        },
+        "13": {
+          "opp": "GB",
+          "home": false
+        },
+        "14": {
+          "opp": "CHI",
+          "home": true
+        },
+        "15": {
+          "opp": "DAL",
+          "home": true
+        },
+        "16": {
+          "opp": "CLE",
+          "home": false
+        },
+        "17": {
+          "opp": "CLE",
+          "home": false
+        },
+        "18": {
+          "opp": "IND",
+          "home": true
+        }
+      },
+      "expert_rank": 7
+    },
+    {
+      "id": "sample-Deion Delgado",
+      "name": "Deion Delgado",
+      "position": "WR",
+      "team": "WSH",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.41,
+          "std": 1.4
+        },
+        "catch_rate": 0.62,
+        "ypr": {
+          "mean": 11.69,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYG",
+          "home": false
+        },
+        "2": {
+          "opp": "ATL",
+          "home": false
+        },
+        "3": {
+          "opp": "BUF",
+          "home": false
+        },
+        "4": {
+          "opp": "TB",
+          "home": true
+        },
+        "5": {
+          "opp": "PHI",
+          "home": false
+        },
+        "6": {
+          "opp": "IND",
+          "home": false
+        },
+        "8": {
+          "opp": "CAR",
+          "home": false
+        },
+        "9": {
+          "opp": "LAC",
+          "home": true
+        },
+        "10": {
+          "opp": "TB",
+          "home": true
+        },
+        "11": {
+          "opp": "NO",
+          "home": true
+        },
+        "12": {
+          "opp": "LV",
+          "home": true
+        },
+        "13": {
+          "opp": "PIT",
+          "home": false
+        },
+        "14": {
+          "opp": "CHI",
+          "home": false
+        },
+        "15": {
+          "opp": "CLE",
+          "home": true
+        },
+        "16": {
+          "opp": "LAC",
+          "home": true
+        },
+        "17": {
+          "opp": "JAX",
+          "home": false
+        },
+        "18": {
+          "opp": "TB",
+          "home": false
+        }
+      },
+      "expert_rank": 8
+    },
+    {
+      "id": "sample-Alex Vance",
+      "name": "Alex Vance",
+      "position": "WR",
+      "team": "NO",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.53,
+          "std": 1.4
+        },
+        "catch_rate": 0.71,
+        "ypr": {
+          "mean": 12.86,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "BUF",
+          "home": false
+        },
+        "2": {
+          "opp": "SEA",
+          "home": true
+        },
+        "3": {
+          "opp": "CLE",
+          "home": false
+        },
+        "4": {
+          "opp": "KC",
+          "home": false
+        },
+        "5": {
+          "opp": "DEN",
+          "home": true
+        },
+        "6": {
+          "opp": "CLE",
+          "home": true
+        },
+        "7": {
+          "opp": "LAR",
+          "home": true
+        },
+        "8": {
+          "opp": "SF",
+          "home": true
+        },
+        "9": {
+          "opp": "MIN",
+          "home": true
+        },
+        "10": {
+          "opp": "NO",
+          "home": true
+        },
+        "12": {
+          "opp": "LAR",
+          "home": false
+        },
+        "13": {
+          "opp": "TEN",
+          "home": false
+        },
+        "14": {
+          "opp": "PIT",
+          "home": true
+        },
+        "15": {
+          "opp": "GB",
+          "home": true
+        },
+        "16": {
+          "opp": "DAL",
+          "home": false
+        },
+        "17": {
+          "opp": "CAR",
+          "home": false
+        },
+        "18": {
+          "opp": "BAL",
+          "home": false
+        }
+      },
+      "expert_rank": 9
+    },
+    {
+      "id": "sample-Elijah Rourke",
+      "name": "Elijah Rourke",
+      "position": "WR",
+      "team": "GB",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.61,
+          "std": 1.4
+        },
+        "catch_rate": 0.6,
+        "ypr": {
+          "mean": 10.02,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "LV",
+          "home": true
+        },
+        "2": {
+          "opp": "CAR",
+          "home": false
+        },
+        "3": {
+          "opp": "JAX",
+          "home": false
+        },
+        "4": {
+          "opp": "BAL",
+          "home": true
+        },
+        "5": {
+          "opp": "DEN",
+          "home": false
+        },
+        "6": {
+          "opp": "LV",
+          "home": true
+        },
+        "7": {
+          "opp": "IND",
+          "home": false
+        },
+        "8": {
+          "opp": "NO",
+          "home": false
+        },
+        "9": {
+          "opp": "PHI",
+          "home": true
+        },
+        "10": {
+          "opp": "HOU",
+          "home": true
+        },
+        "11": {
+          "opp": "SF",
+          "home": false
+        },
+        "13": {
+          "opp": "LV",
+          "home": false
+        },
+        "14": {
+          "opp": "ATL",
+          "home": true
+        },
+        "15": {
+          "opp": "TB",
+          "home": true
+        },
+        "16": {
+          "opp": "SF",
+          "home": false
+        },
+        "17": {
+          "opp": "NYG",
+          "home": false
+        },
+        "18": {
+          "opp": "WSH",
+          "home": false
+        }
+      },
+      "expert_rank": 10
+    },
+    {
+      "id": "sample-Rashad Marsh",
+      "name": "Rashad Marsh",
+      "position": "WR",
+      "team": "CIN",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.72,
+          "std": 1.4
+        },
+        "catch_rate": 0.65,
+        "ypr": {
+          "mean": 13.14,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "2": {
+          "opp": "CHI",
+          "home": true
+        },
+        "3": {
+          "opp": "HOU",
+          "home": true
+        },
+        "4": {
+          "opp": "GB",
+          "home": true
+        },
+        "5": {
+          "opp": "BUF",
+          "home": true
+        },
+        "6": {
+          "opp": "KC",
+          "home": true
+        },
+        "7": {
+          "opp": "PHI",
+          "home": false
+        },
+        "8": {
+          "opp": "CLE",
+          "home": true
+        },
+        "9": {
+          "opp": "LV",
+          "home": false
+        },
+        "10": {
+          "opp": "ARI",
+          "home": false
+        },
+        "11": {
+          "opp": "IND",
+          "home": false
+        },
+        "13": {
+          "opp": "CAR",
+          "home": true
+        },
+        "14": {
+          "opp": "JAX",
+          "home": true
+        },
+        "15": {
+          "opp": "CIN",
+          "home": true
+        },
+        "16": {
+          "opp": "WSH",
+          "home": false
+        },
+        "17": {
+          "opp": "KC",
+          "home": true
+        },
+        "18": {
+          "opp": "ARI",
+          "home": true
+        }
+      },
+      "expert_rank": 11
+    },
+    {
+      "id": "sample-Devon Kellerman",
+      "name": "Devon Kellerman",
+      "position": "WR",
+      "team": "PIT",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.17,
+          "std": 1.4
+        },
+        "catch_rate": 0.63,
+        "ypr": {
+          "mean": 9.2,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "2": {
+          "opp": "IND",
+          "home": true
+        },
+        "3": {
+          "opp": "LAC",
+          "home": false
+        },
+        "4": {
+          "opp": "BUF",
+          "home": false
+        },
+        "5": {
+          "opp": "CHI",
+          "home": false
+        },
+        "6": {
+          "opp": "SEA",
+          "home": true
+        },
+        "7": {
+          "opp": "LAR",
+          "home": false
+        },
+        "8": {
+          "opp": "NO",
+          "home": true
+        },
+        "9": {
+          "opp": "BAL",
+          "home": false
+        },
+        "10": {
+          "opp": "MIN",
+          "home": true
+        },
+        "11": {
+          "opp": "MIA",
+          "home": false
+        },
+        "12": {
+          "opp": "NE",
+          "home": true
+        },
+        "14": {
+          "opp": "DET",
+          "home": true
+        },
+        "15": {
+          "opp": "CLE",
+          "home": true
+        },
+        "16": {
+          "opp": "SEA",
+          "home": true
+        },
+        "17": {
+          "opp": "IND",
+          "home": false
+        },
+        "18": {
+          "opp": "NO",
+          "home": true
+        }
+      },
+      "expert_rank": 12
+    },
+    {
+      "id": "sample-Trevor Coleman",
+      "name": "Trevor Coleman",
+      "position": "WR",
+      "team": "MIN",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.28,
+          "std": 1.4
+        },
+        "catch_rate": 0.74,
+        "ypr": {
+          "mean": 11.27,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "PHI",
+          "home": false
+        },
+        "2": {
+          "opp": "TB",
+          "home": false
+        },
+        "3": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "4": {
+          "opp": "PHI",
+          "home": false
+        },
+        "5": {
+          "opp": "SEA",
+          "home": false
+        },
+        "6": {
+          "opp": "NYG",
+          "home": true
+        },
+        "7": {
+          "opp": "GB",
+          "home": true
+        },
+        "8": {
+          "opp": "SEA",
+          "home": true
+        },
+        "10": {
+          "opp": "DET",
+          "home": false
+        },
+        "11": {
+          "opp": "WSH",
+          "home": false
+        },
+        "12": {
+          "opp": "CIN",
+          "home": true
+        },
+        "13": {
+          "opp": "NE",
+          "home": false
+        },
+        "14": {
+          "opp": "CAR",
+          "home": true
+        },
+        "15": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "16": {
+          "opp": "CLE",
+          "home": false
+        },
+        "17": {
+          "opp": "DEN",
+          "home": true
+        },
+        "18": {
+          "opp": "SF",
+          "home": true
+        }
+      },
+      "expert_rank": 13
+    },
+    {
+      "id": "sample-Brandon Vance",
+      "name": "Brandon Vance",
+      "position": "WR",
+      "team": "IND",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.68,
+          "std": 1.4
+        },
+        "catch_rate": 0.72,
+        "ypr": {
+          "mean": 11.48,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "KC",
+          "home": false
+        },
+        "2": {
+          "opp": "LAR",
+          "home": true
+        },
+        "3": {
+          "opp": "TEN",
+          "home": false
+        },
+        "4": {
+          "opp": "TEN",
+          "home": true
+        },
+        "5": {
+          "opp": "NO",
+          "home": true
+        },
+        "6": {
+          "opp": "BUF",
+          "home": false
+        },
+        "8": {
+          "opp": "HOU",
+          "home": true
+        },
+        "9": {
+          "opp": "DAL",
+          "home": true
+        },
+        "10": {
+          "opp": "TEN",
+          "home": false
+        },
+        "11": {
+          "opp": "CHI",
+          "home": false
+        },
+        "12": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "13": {
+          "opp": "NE",
+          "home": true
+        },
+        "14": {
+          "opp": "NO",
+          "home": true
+        },
+        "15": {
+          "opp": "CAR",
+          "home": false
+        },
+        "16": {
+          "opp": "BUF",
+          "home": true
+        },
+        "17": {
+          "opp": "IND",
+          "home": false
+        },
+        "18": {
+          "opp": "NO",
+          "home": true
+        }
+      },
+      "expert_rank": 14
+    },
+    {
+      "id": "sample-Marcus Rourke",
+      "name": "Marcus Rourke",
+      "position": "WR",
+      "team": "SF",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.1,
+          "std": 1.4
+        },
+        "catch_rate": 0.61,
+        "ypr": {
+          "mean": 8.58,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "BUF",
+          "home": true
+        },
+        "2": {
+          "opp": "PIT",
+          "home": true
+        },
+        "3": {
+          "opp": "CIN",
+          "home": false
+        },
+        "4": {
+          "opp": "PIT",
+          "home": false
+        },
+        "5": {
+          "opp": "MIA",
+          "home": false
+        },
+        "7": {
+          "opp": "LAC",
+          "home": false
+        },
+        "8": {
+          "opp": "TEN",
+          "home": true
+        },
+        "9": {
+          "opp": "MIN",
+          "home": true
+        },
+        "10": {
+          "opp": "IND",
+          "home": true
+        },
+        "11": {
+          "opp": "CIN",
+          "home": false
+        },
+        "12": {
+          "opp": "SEA",
+          "home": false
+        },
+        "13": {
+          "opp": "DAL",
+          "home": true
+        },
+        "14": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "15": {
+          "opp": "BUF",
+          "home": false
+        },
+        "16": {
+          "opp": "CIN",
+          "home": false
+        },
+        "17": {
+          "opp": "WSH",
+          "home": true
+        },
+        "18": {
+          "opp": "JAX",
+          "home": true
+        }
+      },
+      "expert_rank": 15
+    },
+    {
+      "id": "sample-Rashad Vance",
+      "name": "Rashad Vance",
+      "position": "WR",
+      "team": "NYJ",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.24,
+          "std": 1.4
+        },
+        "catch_rate": 0.77,
+        "ypr": {
+          "mean": 12.14,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "JAX",
+          "home": false
+        },
+        "2": {
+          "opp": "PIT",
+          "home": false
+        },
+        "3": {
+          "opp": "JAX",
+          "home": true
+        },
+        "4": {
+          "opp": "NO",
+          "home": false
+        },
+        "5": {
+          "opp": "ARI",
+          "home": true
+        },
+        "6": {
+          "opp": "DET",
+          "home": false
+        },
+        "7": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "8": {
+          "opp": "DET",
+          "home": true
+        },
+        "9": {
+          "opp": "BUF",
+          "home": true
+        },
+        "10": {
+          "opp": "WSH",
+          "home": true
+        },
+        "11": {
+          "opp": "LAC",
+          "home": false
+        },
+        "12": {
+          "opp": "ATL",
+          "home": true
+        },
+        "14": {
+          "opp": "LV",
+          "home": true
+        },
+        "15": {
+          "opp": "PHI",
+          "home": true
+        },
+        "16": {
+          "opp": "CHI",
+          "home": false
+        },
+        "17": {
+          "opp": "TB",
+          "home": false
+        },
+        "18": {
+          "opp": "NE",
+          "home": false
+        }
+      },
+      "expert_rank": 16
+    },
+    {
+      "id": "sample-Jalen Priest",
+      "name": "Jalen Priest",
+      "position": "WR",
+      "team": "IND",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.18,
+          "std": 1.4
+        },
+        "catch_rate": 0.75,
+        "ypr": {
+          "mean": 12.54,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "GB",
+          "home": true
+        },
+        "2": {
+          "opp": "SEA",
+          "home": true
+        },
+        "3": {
+          "opp": "DEN",
+          "home": true
+        },
+        "4": {
+          "opp": "LV",
+          "home": false
+        },
+        "5": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "6": {
+          "opp": "LAR",
+          "home": true
+        },
+        "7": {
+          "opp": "DAL",
+          "home": true
+        },
+        "8": {
+          "opp": "BUF",
+          "home": true
+        },
+        "9": {
+          "opp": "LAR",
+          "home": true
+        },
+        "10": {
+          "opp": "GB",
+          "home": true
+        },
+        "11": {
+          "opp": "LV",
+          "home": false
+        },
+        "12": {
+          "opp": "DAL",
+          "home": true
+        },
+        "14": {
+          "opp": "CHI",
+          "home": false
+        },
+        "15": {
+          "opp": "DEN",
+          "home": false
+        },
+        "16": {
+          "opp": "DEN",
+          "home": false
+        },
+        "17": {
+          "opp": "PHI",
+          "home": false
+        },
+        "18": {
+          "opp": "GB",
+          "home": false
+        }
+      },
+      "expert_rank": 17
+    },
+    {
+      "id": "sample-Jalen Whitfield",
+      "name": "Jalen Whitfield",
+      "position": "WR",
+      "team": "NE",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.09,
+          "std": 1.4
+        },
+        "catch_rate": 0.68,
+        "ypr": {
+          "mean": 12.83,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "LAR",
+          "home": true
+        },
+        "2": {
+          "opp": "IND",
+          "home": false
+        },
+        "3": {
+          "opp": "MIA",
+          "home": false
+        },
+        "4": {
+          "opp": "MIA",
+          "home": false
+        },
+        "5": {
+          "opp": "KC",
+          "home": true
+        },
+        "6": {
+          "opp": "SEA",
+          "home": true
+        },
+        "7": {
+          "opp": "KC",
+          "home": false
+        },
+        "8": {
+          "opp": "NYG",
+          "home": false
+        },
+        "9": {
+          "opp": "ARI",
+          "home": true
+        },
+        "10": {
+          "opp": "HOU",
+          "home": false
+        },
+        "12": {
+          "opp": "NE",
+          "home": false
+        },
+        "13": {
+          "opp": "TEN",
+          "home": false
+        },
+        "14": {
+          "opp": "MIA",
+          "home": false
+        },
+        "15": {
+          "opp": "MIN",
+          "home": true
+        },
+        "16": {
+          "opp": "LAR",
+          "home": false
+        },
+        "17": {
+          "opp": "BAL",
+          "home": true
+        },
+        "18": {
+          "opp": "CAR",
+          "home": true
+        }
+      },
+      "expert_rank": 18
+    },
+    {
+      "id": "sample-Marcus Grant",
+      "name": "Marcus Grant",
+      "position": "WR",
+      "team": "CHI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.59,
+          "std": 1.4
+        },
+        "catch_rate": 0.71,
+        "ypr": {
+          "mean": 13.28,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "CAR",
+          "home": false
+        },
+        "2": {
+          "opp": "JAX",
+          "home": false
+        },
+        "3": {
+          "opp": "LAC",
+          "home": true
+        },
+        "4": {
+          "opp": "LV",
+          "home": false
+        },
+        "5": {
+          "opp": "DAL",
+          "home": true
+        },
+        "6": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "7": {
+          "opp": "MIA",
+          "home": true
+        },
+        "8": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "9": {
+          "opp": "SF",
+          "home": false
+        },
+        "10": {
+          "opp": "IND",
+          "home": false
+        },
+        "11": {
+          "opp": "BUF",
+          "home": true
+        },
+        "12": {
+          "opp": "WSH",
+          "home": true
+        },
+        "13": {
+          "opp": "ARI",
+          "home": true
+        },
+        "15": {
+          "opp": "CLE",
+          "home": false
+        },
+        "16": {
+          "opp": "MIN",
+          "home": false
+        },
+        "17": {
+          "opp": "PIT",
+          "home": false
+        },
+        "18": {
+          "opp": "ATL",
+          "home": false
+        }
+      },
+      "expert_rank": 19
+    },
+    {
+      "id": "sample-Jalen Rourke",
+      "name": "Jalen Rourke",
+      "position": "WR",
+      "team": "BUF",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.46,
+          "std": 1.4
+        },
+        "catch_rate": 0.76,
+        "ypr": {
+          "mean": 12.49,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "LV",
+          "home": false
+        },
+        "2": {
+          "opp": "MIN",
+          "home": true
+        },
+        "3": {
+          "opp": "HOU",
+          "home": true
+        },
+        "4": {
+          "opp": "CLE",
+          "home": true
+        },
+        "5": {
+          "opp": "ATL",
+          "home": true
+        },
+        "6": {
+          "opp": "BAL",
+          "home": false
+        },
+        "7": {
+          "opp": "DET",
+          "home": false
+        },
+        "9": {
+          "opp": "LV",
+          "home": false
+        },
+        "10": {
+          "opp": "MIN",
+          "home": false
+        },
+        "11": {
+          "opp": "LV",
+          "home": true
+        },
+        "12": {
+          "opp": "TEN",
+          "home": true
+        },
+        "13": {
+          "opp": "IND",
+          "home": false
+        },
+        "14": {
+          "opp": "IND",
+          "home": false
+        },
+        "15": {
+          "opp": "NO",
+          "home": false
+        },
+        "16": {
+          "opp": "MIA",
+          "home": false
+        },
+        "17": {
+          "opp": "PHI",
+          "home": false
+        },
+        "18": {
+          "opp": "JAX",
+          "home": false
+        }
+      },
+      "expert_rank": 20
+    },
+    {
+      "id": "sample-Devon Sutton",
+      "name": "Devon Sutton",
+      "position": "WR",
+      "team": "LAR",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 6.0,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.06,
+          "std": 1.4
+        },
+        "catch_rate": 0.6,
+        "ypr": {
+          "mean": 13.39,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "KC",
+          "home": true
+        },
+        "2": {
+          "opp": "PHI",
+          "home": false
+        },
+        "3": {
+          "opp": "DEN",
+          "home": true
+        },
+        "4": {
+          "opp": "TB",
+          "home": true
+        },
+        "5": {
+          "opp": "LAC",
+          "home": true
+        },
+        "7": {
+          "opp": "CLE",
+          "home": false
+        },
+        "8": {
+          "opp": "NO",
+          "home": true
+        },
+        "9": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "10": {
+          "opp": "PHI",
+          "home": false
+        },
+        "11": {
+          "opp": "MIA",
+          "home": false
+        },
+        "12": {
+          "opp": "DET",
+          "home": true
+        },
+        "13": {
+          "opp": "ARI",
+          "home": false
+        },
+        "14": {
+          "opp": "PHI",
+          "home": false
+        },
+        "15": {
+          "opp": "TB",
+          "home": false
+        },
+        "16": {
+          "opp": "NO",
+          "home": false
+        },
+        "17": {
+          "opp": "TEN",
+          "home": false
+        },
+        "18": {
+          "opp": "TEN",
+          "home": true
+        }
+      },
+      "expert_rank": 21
+    },
+    {
+      "id": "sample-Cam Delgado",
+      "name": "Cam Delgado",
+      "position": "TE",
+      "team": "TEN",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.08,
+          "std": 1.4
+        },
+        "catch_rate": 0.6,
+        "ypr": {
+          "mean": 8.94,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NYG",
+          "home": false
+        },
+        "2": {
+          "opp": "HOU",
+          "home": true
+        },
+        "3": {
+          "opp": "DEN",
+          "home": true
+        },
+        "4": {
+          "opp": "DEN",
+          "home": false
+        },
+        "5": {
+          "opp": "NO",
+          "home": true
+        },
+        "6": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "7": {
+          "opp": "GB",
+          "home": false
+        },
+        "8": {
+          "opp": "SEA",
+          "home": false
+        },
+        "9": {
+          "opp": "NO",
+          "home": true
+        },
+        "10": {
+          "opp": "SF",
+          "home": false
+        },
+        "11": {
+          "opp": "NYG",
+          "home": false
+        },
+        "12": {
+          "opp": "MIN",
+          "home": false
+        },
+        "14": {
+          "opp": "MIN",
+          "home": true
+        },
+        "15": {
+          "opp": "BUF",
+          "home": false
+        },
+        "16": {
+          "opp": "ARI",
+          "home": true
+        },
+        "17": {
+          "opp": "BAL",
+          "home": false
+        },
+        "18": {
+          "opp": "LAC",
+          "home": true
+        }
+      },
+      "expert_rank": 1
+    },
+    {
+      "id": "sample-Trevor Priest",
+      "name": "Trevor Priest",
+      "position": "TE",
+      "team": "ATL",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.61,
+          "std": 1.4
+        },
+        "catch_rate": 0.76,
+        "ypr": {
+          "mean": 9.96,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "SEA",
+          "home": false
+        },
+        "2": {
+          "opp": "MIA",
+          "home": true
+        },
+        "3": {
+          "opp": "HOU",
+          "home": false
+        },
+        "4": {
+          "opp": "CIN",
+          "home": false
+        },
+        "5": {
+          "opp": "TEN",
+          "home": false
+        },
+        "6": {
+          "opp": "WSH",
+          "home": false
+        },
+        "8": {
+          "opp": "MIA",
+          "home": false
+        },
+        "9": {
+          "opp": "DEN",
+          "home": false
+        },
+        "10": {
+          "opp": "LAR",
+          "home": true
+        },
+        "11": {
+          "opp": "ARI",
+          "home": false
+        },
+        "12": {
+          "opp": "CLE",
+          "home": true
+        },
+        "13": {
+          "opp": "NE",
+          "home": false
+        },
+        "14": {
+          "opp": "LAR",
+          "home": false
+        },
+        "15": {
+          "opp": "NYG",
+          "home": false
+        },
+        "16": {
+          "opp": "PIT",
+          "home": false
+        },
+        "17": {
+          "opp": "HOU",
+          "home": true
+        },
+        "18": {
+          "opp": "LV",
+          "home": true
+        }
+      },
+      "expert_rank": 2
+    },
+    {
+      "id": "sample-Aiden Delgado",
+      "name": "Aiden Delgado",
+      "position": "TE",
+      "team": "CAR",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 10.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.03,
+          "std": 1.4
+        },
+        "catch_rate": 0.75,
+        "ypr": {
+          "mean": 13.19,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.028,
+        "rec_td_per_catch": 0.084,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NO",
+          "home": true
+        },
+        "2": {
+          "opp": "NE",
+          "home": false
+        },
+        "3": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "4": {
+          "opp": "DET",
+          "home": false
+        },
+        "5": {
+          "opp": "DET",
+          "home": true
+        },
+        "6": {
+          "opp": "CHI",
+          "home": true
+        },
+        "7": {
+          "opp": "NYJ",
+          "home": false
+        },
+        "8": {
+          "opp": "IND",
+          "home": true
+        },
+        "9": {
+          "opp": "GB",
+          "home": false
+        },
+        "10": {
+          "opp": "TB",
+          "home": true
+        },
+        "11": {
+          "opp": "BUF",
+          "home": false
+        },
+        "13": {
+          "opp": "TEN",
+          "home": false
+        },
+        "14": {
+          "opp": "TB",
+          "home": false
+        },
+        "15": {
+          "opp": "MIA",
+          "home": false
+        },
+        "16": {
+          "opp": "NO",
+          "home": true
+        },
+        "17": {
+          "opp": "LAR",
+          "home": true
+        },
+        "18": {
+          "opp": "NE",
+          "home": false
+        }
+      },
+      "expert_rank": 3
+    },
+    {
+      "id": "sample-Jordan Vance",
+      "name": "Jordan Vance",
+      "position": "TE",
+      "team": "CLE",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.15,
+          "std": 1.4
+        },
+        "catch_rate": 0.68,
+        "ypr": {
+          "mean": 10.67,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "PHI",
+          "home": false
+        },
+        "2": {
+          "opp": "GB",
+          "home": true
+        },
+        "3": {
+          "opp": "PIT",
+          "home": false
+        },
+        "4": {
+          "opp": "NYG",
+          "home": false
+        },
+        "5": {
+          "opp": "IND",
+          "home": false
+        },
+        "7": {
+          "opp": "HOU",
+          "home": true
+        },
+        "8": {
+          "opp": "NO",
+          "home": true
+        },
+        "9": {
+          "opp": "NYG",
+          "home": false
+        },
+        "10": {
+          "opp": "CIN",
+          "home": true
+        },
+        "11": {
+          "opp": "PHI",
+          "home": true
+        },
+        "12": {
+          "opp": "LV",
+          "home": true
+        },
+        "13": {
+          "opp": "DEN",
+          "home": true
+        },
+        "14": {
+          "opp": "MIN",
+          "home": false
+        },
+        "15": {
+          "opp": "WSH",
+          "home": true
+        },
+        "16": {
+          "opp": "SF",
+          "home": true
+        },
+        "17": {
+          "opp": "MIA",
+          "home": false
+        },
+        "18": {
+          "opp": "LV",
+          "home": false
+        }
+      },
+      "expert_rank": 4
+    },
+    {
+      "id": "sample-Brandon Harper",
+      "name": "Brandon Harper",
+      "position": "TE",
+      "team": "GB",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.03,
+          "std": 1.4
+        },
+        "catch_rate": 0.77,
+        "ypr": {
+          "mean": 10.12,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "SEA",
+          "home": false
+        },
+        "2": {
+          "opp": "KC",
+          "home": false
+        },
+        "3": {
+          "opp": "MIA",
+          "home": false
+        },
+        "4": {
+          "opp": "BAL",
+          "home": true
+        },
+        "5": {
+          "opp": "GB",
+          "home": false
+        },
+        "6": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "7": {
+          "opp": "ARI",
+          "home": false
+        },
+        "8": {
+          "opp": "CLE",
+          "home": true
+        },
+        "9": {
+          "opp": "IND",
+          "home": false
+        },
+        "10": {
+          "opp": "GB",
+          "home": false
+        },
+        "12": {
+          "opp": "DEN",
+          "home": true
+        },
+        "13": {
+          "opp": "NYG",
+          "home": true
+        },
+        "14": {
+          "opp": "CLE",
+          "home": true
+        },
+        "15": {
+          "opp": "SF",
+          "home": false
+        },
+        "16": {
+          "opp": "HOU",
+          "home": false
+        },
+        "17": {
+          "opp": "CLE",
+          "home": false
+        },
+        "18": {
+          "opp": "PIT",
+          "home": false
+        }
+      },
+      "expert_rank": 5
+    },
+    {
+      "id": "sample-Jalen Marsh",
+      "name": "Jalen Marsh",
+      "position": "TE",
+      "team": "NYG",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.02,
+          "std": 1.4
+        },
+        "catch_rate": 0.7,
+        "ypr": {
+          "mean": 10.4,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "LAR",
+          "home": false
+        },
+        "2": {
+          "opp": "GB",
+          "home": false
+        },
+        "3": {
+          "opp": "CAR",
+          "home": true
+        },
+        "4": {
+          "opp": "ATL",
+          "home": true
+        },
+        "5": {
+          "opp": "BUF",
+          "home": true
+        },
+        "6": {
+          "opp": "SEA",
+          "home": false
+        },
+        "7": {
+          "opp": "WSH",
+          "home": false
+        },
+        "8": {
+          "opp": "WSH",
+          "home": true
+        },
+        "9": {
+          "opp": "TB",
+          "home": true
+        },
+        "10": {
+          "opp": "LV",
+          "home": false
+        },
+        "11": {
+          "opp": "DET",
+          "home": false
+        },
+        "12": {
+          "opp": "LAC",
+          "home": true
+        },
+        "14": {
+          "opp": "KC",
+          "home": true
+        },
+        "15": {
+          "opp": "BUF",
+          "home": false
+        },
+        "16": {
+          "opp": "DAL",
+          "home": true
+        },
+        "17": {
+          "opp": "SEA",
+          "home": false
+        },
+        "18": {
+          "opp": "WSH",
+          "home": true
+        }
+      },
+      "expert_rank": 6
+    },
+    {
+      "id": "sample-Elijah Kellerman",
+      "name": "Elijah Kellerman",
+      "position": "TE",
+      "team": "TB",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.35,
+          "std": 1.4
+        },
+        "catch_rate": 0.65,
+        "ypr": {
+          "mean": 11.47,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "ARI",
+          "home": true
+        },
+        "2": {
+          "opp": "BAL",
+          "home": true
+        },
+        "3": {
+          "opp": "CLE",
+          "home": false
+        },
+        "4": {
+          "opp": "CAR",
+          "home": true
+        },
+        "5": {
+          "opp": "IND",
+          "home": true
+        },
+        "6": {
+          "opp": "NO",
+          "home": false
+        },
+        "7": {
+          "opp": "ARI",
+          "home": true
+        },
+        "8": {
+          "opp": "DET",
+          "home": true
+        },
+        "9": {
+          "opp": "CIN",
+          "home": false
+        },
+        "10": {
+          "opp": "CHI",
+          "home": false
+        },
+        "12": {
+          "opp": "BAL",
+          "home": true
+        },
+        "13": {
+          "opp": "TEN",
+          "home": false
+        },
+        "14": {
+          "opp": "PHI",
+          "home": true
+        },
+        "15": {
+          "opp": "NO",
+          "home": true
+        },
+        "16": {
+          "opp": "PHI",
+          "home": true
+        },
+        "17": {
+          "opp": "KC",
+          "home": true
+        },
+        "18": {
+          "opp": "DEN",
+          "home": false
+        }
+      },
+      "expert_rank": 7
+    },
+    {
+      "id": "sample-Jordan Rourke",
+      "name": "Jordan Rourke",
+      "position": "TE",
+      "team": "CLE",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 1.25,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 7.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.29,
+          "std": 1.4
+        },
+        "catch_rate": 0.78,
+        "ypr": {
+          "mean": 11.68,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.02,
+        "rec_td_per_catch": 0.06,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NO",
+          "home": false
+        },
+        "2": {
+          "opp": "BUF",
+          "home": false
+        },
+        "3": {
+          "opp": "BUF",
+          "home": true
+        },
+        "4": {
+          "opp": "CAR",
+          "home": true
+        },
+        "5": {
+          "opp": "BUF",
+          "home": true
+        },
+        "7": {
+          "opp": "DEN",
+          "home": false
+        },
+        "8": {
+          "opp": "NYG",
+          "home": true
+        },
+        "9": {
+          "opp": "IND",
+          "home": true
+        },
+        "10": {
+          "opp": "NO",
+          "home": true
+        },
+        "11": {
+          "opp": "IND",
+          "home": false
+        },
+        "12": {
+          "opp": "CLE",
+          "home": false
+        },
+        "13": {
+          "opp": "BAL",
+          "home": false
+        },
+        "14": {
+          "opp": "SEA",
+          "home": true
+        },
+        "15": {
+          "opp": "TB",
+          "home": true
+        },
+        "16": {
+          "opp": "NYJ",
+          "home": true
+        },
+        "17": {
+          "opp": "CHI",
+          "home": false
+        },
+        "18": {
+          "opp": "LAC",
+          "home": false
+        }
+      },
+      "expert_rank": 8
+    },
+    {
+      "id": "sample-Chris Harper",
+      "name": "Chris Harper",
+      "position": "TE",
+      "team": "NYG",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 4.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.68,
+          "std": 1.4
+        },
+        "catch_rate": 0.75,
+        "ypr": {
+          "mean": 13.24,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "GB",
+          "home": false
+        },
+        "2": {
+          "opp": "ATL",
+          "home": false
+        },
+        "3": {
+          "opp": "LV",
+          "home": true
+        },
+        "4": {
+          "opp": "NE",
+          "home": false
+        },
+        "5": {
+          "opp": "LAC",
+          "home": false
+        },
+        "6": {
+          "opp": "NE",
+          "home": false
+        },
+        "8": {
+          "opp": "TEN",
+          "home": false
+        },
+        "9": {
+          "opp": "LAR",
+          "home": false
+        },
+        "10": {
+          "opp": "DAL",
+          "home": true
+        },
+        "11": {
+          "opp": "SEA",
+          "home": true
+        },
+        "12": {
+          "opp": "BAL",
+          "home": false
+        },
+        "13": {
+          "opp": "ATL",
+          "home": true
+        },
+        "14": {
+          "opp": "LV",
+          "home": false
+        },
+        "15": {
+          "opp": "CAR",
+          "home": true
+        },
+        "16": {
+          "opp": "SEA",
+          "home": false
+        },
+        "17": {
+          "opp": "LAC",
+          "home": false
+        },
+        "18": {
+          "opp": "JAX",
+          "home": false
+        }
+      },
+      "expert_rank": 9
+    },
+    {
+      "id": "sample-Deion Marsh",
+      "name": "Deion Marsh",
+      "position": "TE",
+      "team": "MIN",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 4.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 3.96,
+          "std": 1.4
+        },
+        "catch_rate": 0.69,
+        "ypr": {
+          "mean": 10.43,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "BAL",
+          "home": true
+        },
+        "2": {
+          "opp": "TB",
+          "home": true
+        },
+        "3": {
+          "opp": "GB",
+          "home": true
+        },
+        "4": {
+          "opp": "ATL",
+          "home": false
+        },
+        "5": {
+          "opp": "PHI",
+          "home": false
+        },
+        "6": {
+          "opp": "TB",
+          "home": false
+        },
+        "7": {
+          "opp": "MIA",
+          "home": false
+        },
+        "8": {
+          "opp": "IND",
+          "home": false
+        },
+        "9": {
+          "opp": "HOU",
+          "home": false
+        },
+        "10": {
+          "opp": "NYG",
+          "home": true
+        },
+        "11": {
+          "opp": "HOU",
+          "home": true
+        },
+        "13": {
+          "opp": "LAR",
+          "home": true
+        },
+        "14": {
+          "opp": "LAC",
+          "home": false
+        },
+        "15": {
+          "opp": "GB",
+          "home": false
+        },
+        "16": {
+          "opp": "CAR",
+          "home": false
+        },
+        "17": {
+          "opp": "KC",
+          "home": false
+        },
+        "18": {
+          "opp": "SF",
+          "home": true
+        }
+      },
+      "expert_rank": 10
+    },
+    {
+      "id": "sample-Cam Sawyer",
+      "name": "Cam Sawyer",
+      "position": "TE",
+      "team": "ARI",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 4.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 4.75,
+          "std": 1.4
+        },
+        "catch_rate": 0.77,
+        "ypr": {
+          "mean": 13.49,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "MIN",
+          "home": true
+        },
+        "2": {
+          "opp": "CAR",
+          "home": true
+        },
+        "3": {
+          "opp": "KC",
+          "home": false
+        },
+        "4": {
+          "opp": "PIT",
+          "home": true
+        },
+        "5": {
+          "opp": "CIN",
+          "home": true
+        },
+        "6": {
+          "opp": "NYG",
+          "home": true
+        },
+        "7": {
+          "opp": "ATL",
+          "home": false
+        },
+        "8": {
+          "opp": "IND",
+          "home": false
+        },
+        "9": {
+          "opp": "ATL",
+          "home": true
+        },
+        "10": {
+          "opp": "TEN",
+          "home": true
+        },
+        "11": {
+          "opp": "LV",
+          "home": false
+        },
+        "12": {
+          "opp": "CLE",
+          "home": false
+        },
+        "14": {
+          "opp": "MIN",
+          "home": true
+        },
+        "15": {
+          "opp": "WSH",
+          "home": false
+        },
+        "16": {
+          "opp": "WSH",
+          "home": false
+        },
+        "17": {
+          "opp": "PHI",
+          "home": false
+        },
+        "18": {
+          "opp": "CAR",
+          "home": false
+        }
+      },
+      "expert_rank": 11
+    },
+    {
+      "id": "sample-Aiden Priest",
+      "name": "Aiden Priest",
+      "position": "TE",
+      "team": "HOU",
+      "games_sampled": 24,
+      "volume": {
+        "carries": {
+          "r": 0.75,
+          "p": 0.4545
+        },
+        "targets": {
+          "r": 4.5,
+          "p": 0.5556
+        }
+      },
+      "efficiency": {
+        "ypc": {
+          "mean": 5.11,
+          "std": 1.4
+        },
+        "catch_rate": 0.62,
+        "ypr": {
+          "mean": 10.33,
+          "std": 3.2
+        }
+      },
+      "td_rate": {
+        "rush_td_per_carry": 0.012,
+        "rec_td_per_catch": 0.036,
+        "fumble_rate": 0.04
+      },
+      "schedule": {
+        "1": {
+          "opp": "NO",
+          "home": false
+        },
+        "2": {
+          "opp": "LAR",
+          "home": false
+        },
+        "3": {
+          "opp": "CAR",
+          "home": false
+        },
+        "4": {
+          "opp": "CLE",
+          "home": false
+        },
+        "5": {
+          "opp": "PIT",
+          "home": false
+        },
+        "6": {
+          "opp": "LV",
+          "home": true
+        },
+        "7": {
+          "opp": "NE",
+          "home": false
+        },
+        "8": {
+          "opp": "JAX",
+          "home": false
+        },
+        "9": {
+          "opp": "WSH",
+          "home": false
+        },
+        "10": {
+          "opp": "NE",
+          "home": true
+        },
+        "12": {
+          "opp": "TEN",
+          "home": true
+        },
+        "13": {
+          "opp": "LV",
+          "home": true
+        },
+        "14": {
+          "opp": "DAL",
+          "home": true
+        },
+        "15": {
+          "opp": "GB",
+          "home": true
+        },
+        "16": {
+          "opp": "PIT",
+          "home": true
+        },
+        "17": {
+          "opp": "PHI",
+          "home": true
+        },
+        "18": {
+          "opp": "NYJ",
+          "home": true
+        }
+      },
+      "expert_rank": 12
+    }
+  ]
+}
