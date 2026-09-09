@@ -202,6 +202,22 @@ def scrub_nans(obj):
     return obj
 
 
+def fetch_current_rosters():
+    """Pull this season's rosters so each player is assigned their
+    actual current team - not whatever team they were on in the
+    2024-2025 stats used to fit their distribution. Without this,
+    anyone who changed teams via trade or free agency this offseason
+    (e.g. a player traded in June, after the season ended) would
+    incorrectly show their old team and get that old team's schedule.
+    Returns a dict of player_id -> current team abbreviation."""
+    try:
+        rosters = nfl.load_rosters([CURRENT_SEASON]).to_pandas()
+    except Exception as exc:  # noqa: BLE001 - best effort, non-fatal
+        print(f"Could not pull {CURRENT_SEASON} rosters (non-fatal): {exc}")
+        return {}
+    return dict(zip(rosters["gsis_id"], rosters["team"]))
+
+
 def negbin_params(mean, var):
     """Method-of-moments fit for a Negative Binomial(r, p), used for
     count stats (carries, targets, attempts) which are typically
@@ -217,15 +233,27 @@ def negbin_params(mean, var):
     return {"r": max(r, 0.5), "p": min(max(p, 0.01), 0.99)}
 
 
-def build_player_params(df):
-    """Collapse weekly logs into per-player distribution parameters."""
-    players = {}
-    grouped = df.groupby(["player_id", "player_display_name", "position", "recent_team"])
+def build_player_params(df, current_rosters):
+    """Collapse weekly logs into per-player distribution parameters.
 
-    for (pid, name, pos, team), g in grouped:
+    Groups by player identity only (not team): a player who switched
+    teams mid-window (e.g. traded in-season) would otherwise be split
+    into two separate groups by a team-inclusive groupby, and one
+    silently overwrites the other in the output dict - undercounting
+    their real sample size. All of a player's games across any team
+    are combined here for a fuller distribution fit; the *displayed*
+    team comes from current_rosters (falling back to their most
+    recent historical team if they're not on a 2026 roster, e.g. a
+    very late add not yet reflected)."""
+    players = {}
+    grouped = df.groupby(["player_id", "player_display_name", "position"])
+
+    for (pid, name, pos), g in grouped:
         g = g.sort_values(["season", "week"])
         if len(g) < 4:
             continue  # not enough games to fit a meaningful distribution
+
+        team = current_rosters.get(pid) or g.iloc[-1]["recent_team"]
 
         entry = {
             "id": str(pid),
@@ -309,11 +337,15 @@ def main():
     print("Pulling schedule...")
     team_weeks = fetch_schedule()
 
+    print("Pulling current-season rosters (for correct team assignment)...")
+    current_rosters = fetch_current_rosters()
+    print(f"  {len(current_rosters)} players on {CURRENT_SEASON} rosters")
+
     print("Pulling FantasyPros expert consensus rankings...")
     fp_data = fetch_fantasypros_rankings()
 
     print("Building per-player simulation parameters...")
-    players = build_player_params(df)
+    players = build_player_params(df, current_rosters)
     players = attach_schedule_and_rankings(players, team_weeks, fp_data)
 
     out = {
