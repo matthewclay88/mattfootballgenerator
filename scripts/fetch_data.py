@@ -27,6 +27,7 @@ via .to_pandas() so the rest of this script stays unchanged).
 """
 
 import json
+import math
 import os
 import re
 import sys
@@ -171,6 +172,36 @@ def fetch_fantasypros_rankings():
     return out
 
 
+def safe_stat(value, default):
+    """Returns `value` as a plain float, or `default` if `value` is
+    NaN/None/unparseable. This is NOT the same as `value or default`:
+    that idiom silently fails for NaN, because NaN is truthy in
+    Python, so `float('nan') or default` evaluates to NaN, not
+    default. That bug is what let literal NaN tokens leak into the
+    JSON output - NaN is invalid JSON, so the browser's JSON.parse
+    throws and the whole file fails to load."""
+    try:
+        value = float(value)
+    except (TypeError, ValueError):
+        return float(default)
+    if math.isnan(value) or math.isinf(value):
+        return float(default)
+    return value
+
+
+def scrub_nans(obj):
+    """Recursively replace any NaN/Infinity float with None so the
+    final json.dump can never emit an invalid-JSON token, even if a
+    future code path introduces one we haven't guarded explicitly."""
+    if isinstance(obj, dict):
+        return {k: scrub_nans(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [scrub_nans(v) for v in obj]
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    return obj
+
+
 def negbin_params(mean, var):
     """Method-of-moments fit for a Negative Binomial(r, p), used for
     count stats (carries, targets, attempts) which are typically
@@ -218,8 +249,8 @@ def build_player_params(df):
             rtd = stat("rushing_tds")
             entry["volume"] = {"attempts": negbin_params(att.mean(), att.var())}
             entry["efficiency"] = {
-                "comp_pct": {"mean": float((comp / att.replace(0, np.nan)).mean(skipna=True) or 0.62), "std": 0.06},
-                "yards_per_attempt": {"mean": float(pyds.sum() / max(att.sum(), 1)), "std": float(max((pyds / att.replace(0, np.nan)).std(skipna=True) or 1.2, 0.5))},
+                "comp_pct": {"mean": safe_stat((comp / att.replace(0, np.nan)).mean(skipna=True), 0.62), "std": 0.06},
+                "yards_per_attempt": {"mean": float(pyds.sum() / max(att.sum(), 1)), "std": max(safe_stat((pyds / att.replace(0, np.nan)).std(skipna=True), 1.2), 0.5)},
             }
             entry["td_rate"] = {"pass_td_per_att": float(ptd.sum() / max(att.sum(), 1)), "int_per_att": float(ints.sum() / max(att.sum(), 1))}
             entry["rushing"] = {
@@ -242,9 +273,9 @@ def build_player_params(df):
                 "targets": negbin_params(tgt.mean(), tgt.var()),
             }
             entry["efficiency"] = {
-                "ypc": {"mean": float(ryds.sum() / max(carries.sum(), 1)), "std": float(max((ryds / carries.replace(0, np.nan)).std(skipna=True) or 2.0, 1.0))},
+                "ypc": {"mean": float(ryds.sum() / max(carries.sum(), 1)), "std": max(safe_stat((ryds / carries.replace(0, np.nan)).std(skipna=True), 2.0), 1.0)},
                 "catch_rate": float(min(max(rec.sum() / max(tgt.sum(), 1), 0.35), 0.95)),
-                "ypr": {"mean": float(recyds.sum() / max(rec.sum(), 1)), "std": float(max((recyds / rec.replace(0, np.nan)).std(skipna=True) or 4.0, 2.0))},
+                "ypr": {"mean": float(recyds.sum() / max(rec.sum(), 1)), "std": max(safe_stat((recyds / rec.replace(0, np.nan)).std(skipna=True), 4.0), 2.0)},
             }
             entry["td_rate"] = {
                 "rush_td_per_carry": float(rtd.sum() / max(carries.sum(), 1)),
@@ -291,6 +322,8 @@ def main():
         "history_seasons": HISTORY_SEASONS,
         "players": list(players.values()),
     }
+
+    out = scrub_nans(out)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_PATH, "w") as f:
